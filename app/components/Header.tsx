@@ -251,8 +251,7 @@ const Header = () => {
           <Image src="/logo.webp" alt="Microtex International" width={200} height={80} priority className="h-auto w-28 sm:w-[200px]" />
         </Link>
 
-        <nav aria-label="Main navigation" className="order-3 flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 text-gray-800 sm:gap-x-4 lg:order-2 lg:w-auto lg:flex-nowrap 2xl:gap-x-5">
-          <Link href="/about-us" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">ABOUT US</Link>
+        <nav aria-label="Main navigation" className="order-2 flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 text-gray-800 sm:gap-x-4 lg:w-auto lg:flex-nowrap 2xl:gap-x-5">
           <Link
             href="/machines"
             aria-haspopup="true"
@@ -264,16 +263,6 @@ const Header = () => {
             className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
           >MACHINES</Link>
           <Link
-            href="/services"
-            aria-haspopup="true"
-            aria-expanded={openPanel === 'services'}
-            aria-controls="services-mega-menu"
-            onMouseEnter={(event) => openHoverMenu('services', event.currentTarget)}
-            onFocus={(event) => openHoverMenu('services', event.currentTarget)}
-            onClick={closeMenu}
-            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
-          >SERVICES</Link>
-          <Link
             href="/spares"
             aria-haspopup="true"
             aria-expanded={openPanel === 'spares'}
@@ -283,10 +272,21 @@ const Header = () => {
             onClick={closeMenu}
             className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
           >SPARE PARTS</Link>
-          <Link href="/news" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">NEWS</Link>
+          <Link
+            href="/services"
+            aria-haspopup="true"
+            aria-expanded={openPanel === 'services'}
+            aria-controls="services-mega-menu"
+            onMouseEnter={(event) => openHoverMenu('services', event.currentTarget)}
+            onFocus={(event) => openHoverMenu('services', event.currentTarget)}
+            onClick={closeMenu}
+            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
+          >SERVICES</Link>
+          <Link href="/about-us" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">ABOUT US</Link>
+          <Link href="/news" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">NEWS &amp; EVENTS</Link>
         </nav>
 
-        <div className="order-2 flex shrink-0 items-center gap-2 sm:gap-3 lg:order-3">
+        <div className="order-3 ml-auto flex shrink-0 items-center gap-2 sm:gap-3 lg:ml-0 lg:order-3">
           <select
             value={language}
             onChange={(event) => setLanguage(event.target.value as Language)}

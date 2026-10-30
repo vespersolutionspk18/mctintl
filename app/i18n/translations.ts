@@ -11,6 +11,7 @@ const phraseRows: TranslationRow[] = [
   ['SERVICES', 'USŁUGI', 'SERVICIOS', 'الخدمات', 'SERVIÇOS'],
   ['SPARE PARTS', 'CZĘŚCI ZAMIENNE', 'REPUESTOS', 'قطع الغيار', 'PEÇAS DE REPOSIÇÃO'],
   ['NEWS', 'AKTUALNOŚCI', 'NOTICIAS', 'الأخبار', 'NOTÍCIAS'],
+  ['NEWS & EVENTS', 'AKTUALNOŚCI I WYDARZENIA', 'NOTICIAS Y EVENTOS', 'الأخبار والفعاليات', 'NOTÍCIAS E EVENTOS'],
   ['CONTACT US', 'SKONTAKTUJ SIĘ Z NAMI', 'CONTÁCTENOS', 'تواصل معنا', 'FALE CONOSCO'],
   ['ALL MACHINES', 'WSZYSTKIE MASZYNY', 'TODAS LAS MÁQUINAS', 'جميع الآلات', 'TODAS AS MÁQUINAS'],
   ['ALL SERVICES', 'WSZYSTKIE USŁUGI', 'TODOS LOS SERVICIOS', 'جميع الخدمات', 'TODOS OS SERVIÇOS'],
