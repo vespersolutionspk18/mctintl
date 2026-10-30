@@ -1,0 +1,369 @@
+{
+ "url": "http://127.0.0.1:3001/contact",
+ "at": "2026-10-30T17:30:37.866Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.66,
+    0.36,
+    0.35
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 1709,
+     "screens": 2,
+     "words": 208,
+     "img": 3,
+     "video": 0,
+     "canvas": 0,
+     "svg": 4,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fhero3.png&w=640&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "CONTACT US",
+     "words": 2,
+     "chars": 10,
+     "lines": 1,
+     "size": 16,
+     "vw": 4.1,
+     "font": "Times",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 1.5,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 1,
+     "top": 311,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "CONTACT US",
+     "words": 2,
+     "lines": 1,
+     "size": 16,
+     "font": "Times"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      16
+     ],
+     "sizeCount": 2,
+     "notLoaded": [],
+     "body": {
+      "font": "Times",
+      "size": 16,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 17.9
+     },
+     "measureChars": 49,
+     "max": {
+      "size": 16,
+      "vw": 4.1,
+      "font": "Times",
+      "text": "ABOUT US"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.16,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#171717",
+       "share": 1
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 1,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 85,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": []
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 1709,
+    "margins": {
+     "left": 0,
+     "right": 14
+    },
+    "sections": [
+     {
+      "sel": "main",
+      "tag": "main",
+      "top": 85,
+      "height": 881,
+      "words": 112,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "MICROTEX INTERNATIONAL",
+       "size": 16,
+       "tag": "h4"
+      },
+      "left": 0,
+      "right": 14,
+      "textLeft": 0,
+      "textRight": 14,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-gray-200",
+      "tag": "footer",
+      "top": 966,
+      "height": 721,
+      "words": 84,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 18,
+      "textLeft": 0,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "CONTACT US",
+      "size": 16,
+      "top": 311,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "ABOUT US",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "NEWS",
+      "side": "right",
+      "px": 8
+     },
+     {
+      "text": "MICROTEX INTERNATIONAL",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "CONTACT US",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "GET IN TOUCH",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "Whether you're looking for machinery, spare parts ",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "EMAIL US",
+      "side": "left",
+      "px": 0
+     },
+     {
+      "text": "info@microtex.co",
+      "side": "left",
+      "px": 0
+     }
+    ],
+    "edges": [
+     {
+      "x": 0,
+      "n": 9
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 390,
+   "message": "The margins differ: 0px on the left, 14px on the right, at 390px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 390,
+   "message": "The h1 is 16px (\"CONTACT US\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 390,
+   "message": "The h1 is a bare name (\"CONTACT US\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points."
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 390,
+   "message": "8 text block(s) sit within 12px of the screen edge: \"ABOUT US\" (0px from the left); \"NEWS\" (8px from the right); \"MICROTEX INTERNATIONAL\" (0px from the left); \"CONTACT US\" (0px from the left)",
+   "fix": "Keep text inside the page margin (16–20px). Only display type deliberately bled past the edge may touch it."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/mobile-after-contact/mobile-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/mobile-after-contact/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

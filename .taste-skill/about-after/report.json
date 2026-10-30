@@ -1,0 +1,1540 @@
+{
+ "url": "http://127.0.0.1:3000/about-us",
+ "at": "2026-10-30T13:58:47.950Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.34,
+    0.32,
+    0.43,
+    0.2,
+    0.09
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4460,
+     "screens": 5,
+     "words": 333,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fabout-hero.webp&w=828&q=75",
+      "image?url=%2Fcigarette-making-line.webp&w=750&q=",
+      "image?url=%2Fspare-parts%2Fmk8%2F01-garniture-ta",
+      "image?url=%2Fmicrotex-overwrapper-mti-ow25-1.web"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Secondary processing machinery",
+     "words": 3,
+     "chars": 30,
+     "lines": 2,
+     "size": 64.8,
+     "vw": 4.5,
+     "font": "Space Grotesk",
+     "weight": 550,
+     "tracking": -0.075,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 350,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Secondary processing machinery",
+     "words": 3,
+     "lines": 2,
+     "size": 64.8,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Secondary processing machinery",
+      "words": 3,
+      "chars": 30,
+      "lines": 2,
+      "size": 64.8,
+      "vw": 4.5,
+      "font": "Space Grotesk",
+      "weight": 550,
+      "tracking": -0.075,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 350,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality machinery and services",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 60.5,
+      "vw": 4.2,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1023,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Machinery for each stage",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 60.5,
+      "vw": 4.2,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.34,
+      "top": 1528,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spare parts and services",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 60.5,
+      "vw": 4.2,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 2301,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our principles",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 60.5,
+      "vw": 4.2,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 2951,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Highest quality for the best price.”",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 28.8,
+      "vw": 2,
+      "font": "Space Grotesk",
+      "weight": 550,
+      "tracking": -0.04,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 3073,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Let’s talk about production needs",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 53.3,
+      "vw": 3.7,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.48,
+      "top": 3502,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      29,
+      53,
+      61,
+      65
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Times",
+      "size": 16.6,
+      "leading": 1.7,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.6
+     },
+     "measureChars": 78,
+     "max": {
+      "size": 64.8,
+      "vw": 4.5,
+      "font": "Space Grotesk",
+      "text": "Secondary processing machinery"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 129,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#62696f",
+       "share": 0.43
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.15
+      },
+      {
+       "color": "#c9ced1",
+       "share": 0.14
+      },
+      {
+       "color": "#24282c",
+       "share": 0.11
+      },
+      {
+       "color": "#171717",
+       "share": 0.1
+      }
+     ],
+     "button": {
+      "bg": "#a61e25",
+      "hsl": {
+       "h": 357,
+       "s": 0.69,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Spare parts and services",
+       "ratio": 1,
+       "need": 3,
+       "size": 60.5,
+       "fg": "#ffffff",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Microtex offers related spare parts and ",
+       "ratio": 1.6,
+       "need": 4.5,
+       "size": 16.6,
+       "fg": "#c9ced1",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "The company continues to improve its ope",
+       "ratio": 1.6,
+       "need": 4.5,
+       "size": 16.6,
+       "fg": "#c9ced1",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 4,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.25
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 18,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4460,
+    "margins": {
+     "left": 8,
+     "right": 97
+    },
+    "sections": [
+     {
+      "sel": "div.relative.flex",
+      "tag": "div",
+      "top": 8,
+      "height": 121,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 1074,
+      "textLeft": 8,
+      "textRight": 1074,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__hero",
+      "tag": "section",
+      "top": 129,
+      "height": 778,
+      "words": 28,
+      "media": 1,
+      "middle": 150,
+      "heading": {
+       "text": "Secondary processing machinery",
+       "size": 65,
+       "tag": "h1"
+      },
+      "left": 97,
+      "right": 97,
+      "textLeft": 97,
+      "textRight": 381,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__intro",
+      "tag": "section",
+      "top": 907,
+      "height": 406,
+      "words": 63,
+      "media": 0,
+      "middle": 131,
+      "heading": {
+       "text": "Quality machinery and services",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 97,
+      "right": 100,
+      "textLeft": 97,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__portfolio",
+      "tag": "section",
+      "top": 1313,
+      "height": 866,
+      "words": 33,
+      "media": 2,
+      "middle": 101,
+      "heading": {
+       "text": "Machinery for each stage",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 97,
+      "right": 154,
+      "textLeft": 114,
+      "textRight": 154,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__support",
+      "tag": "section",
+      "top": 2179,
+      "height": 630,
+      "words": 64,
+      "media": 1,
+      "middle": 54,
+      "heading": {
+       "text": "Spare parts and services",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 97,
+      "right": 29,
+      "textLeft": 97,
+      "textRight": 563,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__principles",
+      "tag": "section",
+      "top": 2809,
+      "height": 628,
+      "words": 86,
+      "media": 0,
+      "middle": 176,
+      "heading": {
+       "text": "Our principles",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 97,
+      "right": 162,
+      "textLeft": 97,
+      "textRight": 162,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__contact",
+      "tag": "section",
+      "top": 3438,
+      "height": 257,
+      "words": 8,
+      "media": 0,
+      "middle": 698,
+      "heading": {
+       "text": "Let’s talk about production needs",
+       "size": 53,
+       "tag": "h2"
+      },
+      "left": 97,
+      "right": 152,
+      "textLeft": 97,
+      "textRight": 152,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-gray-200",
+      "tag": "footer",
+      "top": 3694,
+      "height": 729,
+      "words": 83,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 490,
+      "textLeft": 8,
+      "textRight": 490,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Secondary processing machinery",
+      "size": 65,
+      "top": 350,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "MACHINES",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Microtex International supplies superior turnkey s",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "COMPANY",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Machines",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Services",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Spare parts",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "© 2026 Microtex International. All rights reserved",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Privacy Policy",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 97,
+      "n": 8
+     },
+     {
+      "x": 619,
+      "n": 3
+     },
+     {
+      "x": 885,
+      "n": 3
+     },
+     {
+      "x": 693,
+      "n": 2
+     },
+     {
+      "x": 856,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.16,
+    "voidBox": {
+     "x": 0,
+     "y": 660,
+     "w": 840,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.45,
+    0.5,
+    0.37,
+    0.73,
+    0.39,
+    0.23,
+    0.4
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 5279,
+     "screens": 6.3,
+     "words": 333,
+     "img": 6,
+     "video": 0,
+     "canvas": 0,
+     "svg": 1,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fabout-hero.webp&w=640&q=75",
+      "image?url=%2Fcigarette-making-line.webp&w=384&q=",
+      "image?url=%2Fmicrotex-overwrapper-mti-ow25-1.web"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Secondary processing machinery",
+     "words": 3,
+     "chars": 30,
+     "lines": 2,
+     "size": 28.8,
+     "vw": 7.4,
+     "font": "Space Grotesk",
+     "weight": 550,
+     "tracking": -0.075,
+     "leading": 0.98,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.87,
+     "top": 185,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Secondary processing machinery",
+     "words": 3,
+     "lines": 2,
+     "size": 28.8,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "Secondary processing machinery",
+      "words": 3,
+      "chars": 30,
+      "lines": 2,
+      "size": 28.8,
+      "vw": 7.4,
+      "font": "Space Grotesk",
+      "weight": 550,
+      "tracking": -0.075,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 185,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality machinery and services",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 912,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Machinery for each stage",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 1928,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Spare parts and services",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 2488,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Our principles",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 3431,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“Highest quality for the best price.”",
+      "words": 6,
+      "chars": 37,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 550,
+      "tracking": -0.04,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.56,
+      "top": 3496,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Let’s talk about production needs",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 35.2,
+      "vw": 9,
+      "font": "Space Grotesk",
+      "weight": 520,
+      "tracking": -0.065,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 4269,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Times",
+       "share": 0.86,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.14,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      24,
+      29,
+      35,
+      40
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "Times",
+      "size": 16.8,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.6
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 40,
+      "vw": 10.3,
+      "font": "Space Grotesk",
+      "text": "Quality machinery and services"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Replacement parts",
+      "above": "Machinery for each stage",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 13.6,
+      "top": 1857
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 129,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#30363a",
+       "top": 452,
+       "hsl": {
+        "h": 204,
+        "s": 0.09,
+        "l": 0.21
+       }
+      },
+      {
+       "color": "#e2e4e5",
+       "top": 1500,
+       "hsl": {
+        "h": 200,
+        "s": 0.05,
+        "l": 0.89
+       }
+      },
+      {
+       "color": "#f7f7f6",
+       "top": 2956,
+       "hsl": {
+        "h": 60,
+        "s": 0.06,
+        "l": 0.97
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#62696f",
+       "share": 0.43
+      },
+      {
+       "color": "#0000ee",
+       "share": 0.15
+      },
+      {
+       "color": "#c9ced1",
+       "share": 0.14
+      },
+      {
+       "color": "#24282c",
+       "share": 0.11
+      },
+      {
+       "color": "#171717",
+       "share": 0.1
+      }
+     ],
+     "button": {
+      "bg": "#a61e25",
+      "hsl": {
+       "h": 357,
+       "s": 0.69,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Spare parts and services",
+       "ratio": 1,
+       "need": 3,
+       "size": 40,
+       "fg": "#ffffff",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "Microtex offers related spare parts and ",
+       "ratio": 1.6,
+       "need": 4.5,
+       "size": 16.6,
+       "fg": "#c9ced1",
+       "bg": "#ffffff"
+      },
+      {
+       "text": "The company continues to improve its ope",
+       "ratio": 1.6,
+       "need": 4.5,
+       "size": 16.6,
+       "fg": "#c9ced1",
+       "bg": "#ffffff"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 0,
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Get in touch ↗"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.32
+     }
+    ],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 18,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 5279,
+    "margins": {
+     "left": 8,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "div.relative.flex",
+      "tag": "div",
+      "top": 8,
+      "height": 121,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 24,
+      "textLeft": 8,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__hero",
+      "tag": "section",
+      "top": 129,
+      "height": 707,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Secondary processing machinery",
+       "size": 29,
+       "tag": "h1"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__intro",
+      "tag": "section",
+      "top": 836,
+      "height": 583,
+      "words": 63,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quality machinery and services",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 36,
+      "textLeft": 26,
+      "textRight": 36,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__portfolio",
+      "tag": "section",
+      "top": 1420,
+      "height": 990,
+      "words": 33,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Machinery for each stage",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 26,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__support",
+      "tag": "section",
+      "top": 2410,
+      "height": 933,
+      "words": 64,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Spare parts and services",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 34,
+      "textLeft": 26,
+      "textRight": 34,
+      "fullBleed": true,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__principles",
+      "tag": "section",
+      "top": 3343,
+      "height": 872,
+      "words": 86,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Our principles",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 29,
+      "textLeft": 26,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-us-module__X9-NEW__contact",
+      "tag": "section",
+      "top": 4215,
+      "height": 263,
+      "words": 8,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Let’s talk about production needs",
+       "size": 35,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 98,
+      "textLeft": 26,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-gray-200",
+      "tag": "footer",
+      "top": 4478,
+      "height": 765,
+      "words": 83,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 8,
+      "right": 10,
+      "textLeft": 8,
+      "textRight": 10,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Secondary processing machinery",
+      "size": 29,
+      "top": 185,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "MACHINES",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Microtex International supplies superior turnkey s",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "COMPANY",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Machines",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Services",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Spare parts",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "© 2026 Microtex International. All rights reserved",
+      "side": "left",
+      "px": 8
+     },
+     {
+      "text": "Privacy Policy",
+      "side": "left",
+      "px": 8
+     }
+    ],
+    "edges": [
+     {
+      "x": 26,
+      "n": 18
+     }
+    ],
+    "leftBlocks": 18,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "default-link",
+   "width": 1440,
+   "message": "Browser-default blue/purple link colour is showing.",
+   "fix": "Style every link: inherit the text colour and mark it with weight, underline offset, or the accent.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Unreadable text: \"Spare parts and services\" 1:1 (#ffffff on #ffffff); \"Microtex offers related spare parts and \" 1.6:1 (#c9ced1 on #ffffff); \"The company continues to improve its ope\" 1.6:1 (#c9ced1 on #ffffff)",
+   "fix": "Raise contrast to at least 4.5:1 for text, 3:1 for large display.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (13, 14, 15, 16, 17, 18, 19, 22, 29, 53, 61, 65).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (5.6:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 8px on the left, 97px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "8 text block(s) sit within 16px of the screen edge: \"MACHINES\" (8px from the left); \"Microtex International supplie\" (8px from the left); \"COMPANY\" (8px from the left); \"Machines\" (8px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 390,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Replacement parts\" above \"Machinery for each stage\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 390,
+   "message": "The h1 is a bare name (\"Secondary processing machinery\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-after/desktop-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-after/desktop-page-01.jpg",
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-after/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-after/mobile-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-after/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
