@@ -33,6 +33,23 @@ type MachineCategory = {
 
 type OpenPanel = 'machines' | 'services' | 'spares' | null
 
+function DisclosureIcon({ expanded }: { expanded: boolean }) {
+  return (
+    <svg
+      aria-hidden="true"
+      viewBox="0 0 20 20"
+      fill="none"
+      className={`h-4 w-4 shrink-0 transition-transform ${expanded ? 'rotate-180' : ''}`}
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <path d="m5 7.5 5 5 5-5" />
+    </svg>
+  )
+}
+
 const machineCategories: MachineCategory[] = [
   {
     id: 'making',
@@ -207,23 +224,54 @@ function MenuCard({
 const Header = () => {
   const { language, setLanguage } = useLanguage()
   const [openPanel, setOpenPanel] = useState<OpenPanel>(null)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileExpandedSection, setMobileExpandedSection] = useState<OpenPanel>(null)
+  const [mobileExpandedMachineCategory, setMobileExpandedMachineCategory] = useState<MachineCategory['id'] | null>(null)
   const [activeMachineCategory, setActiveMachineCategory] = useState<MachineCategory['id']>('making')
   const headerRef = useRef<HTMLElement>(null)
   const triggerRef = useRef<HTMLElement | null>(null)
+  const mobileMenuButtonRef = useRef<HTMLButtonElement>(null)
 
   const activeCategory = machineCategories.find((category) => category.id === activeMachineCategory) ?? machineCategories[0]
-  const closeMenu = () => setOpenPanel(null)
+  const closeMenu = () => {
+    setOpenPanel(null)
+    setMobileMenuOpen(false)
+    setMobileExpandedSection(null)
+    setMobileExpandedMachineCategory(null)
+  }
+
+  const toggleMobileMenu = () => {
+    if (mobileMenuOpen) {
+      setMobileExpandedSection(null)
+      setMobileExpandedMachineCategory(null)
+    }
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
+
+  const toggleMobileSection = (section: Exclude<OpenPanel, null>) => {
+    setMobileExpandedSection((current) => current === section ? null : section)
+    setMobileExpandedMachineCategory(null)
+  }
 
   useEffect(() => {
-    if (!openPanel) return
+    if (!openPanel && !mobileMenuOpen) return
 
     const handlePointerDown = (event: PointerEvent) => {
-      if (!headerRef.current?.contains(event.target as Node)) setOpenPanel(null)
+      if (!headerRef.current?.contains(event.target as Node)) {
+        setOpenPanel(null)
+        setMobileMenuOpen(false)
+        setMobileExpandedSection(null)
+        setMobileExpandedMachineCategory(null)
+      }
     }
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
         setOpenPanel(null)
-        triggerRef.current?.focus()
+        setMobileMenuOpen(false)
+        setMobileExpandedSection(null)
+        setMobileExpandedMachineCategory(null)
+        if (mobileMenuOpen) mobileMenuButtonRef.current?.focus()
+        else triggerRef.current?.focus()
       }
     }
 
@@ -233,7 +281,7 @@ const Header = () => {
       document.removeEventListener('pointerdown', handlePointerDown)
       document.removeEventListener('keydown', handleKeyDown)
     }
-  }, [openPanel])
+  }, [openPanel, mobileMenuOpen])
 
   const openHoverMenu = (panel: Exclude<OpenPanel, null>, trigger: HTMLElement) => {
     triggerRef.current = trigger
@@ -251,7 +299,25 @@ const Header = () => {
           <Image src="/logo.webp" alt="Microtex International" width={200} height={80} priority className="h-auto w-28 sm:w-[200px]" />
         </Link>
 
-        <nav aria-label="Main navigation" className="order-2 flex w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 text-gray-800 sm:gap-x-4 lg:w-auto lg:flex-nowrap 2xl:gap-x-5">
+        <button
+          ref={mobileMenuButtonRef}
+          type="button"
+          aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
+          aria-expanded={mobileMenuOpen}
+          aria-controls="mobile-navigation"
+          onClick={toggleMobileMenu}
+          className="order-2 ml-auto inline-flex h-10 w-10 items-center justify-center border border-gray-300 text-gray-800 transition-colors hover:border-gray-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 lg:hidden"
+        >
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" className="h-5 w-5" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+            {mobileMenuOpen ? <path d="m6 6 12 12M18 6 6 18" /> : <path d="M4 6h16M4 12h16M4 18h16" />}
+          </svg>
+        </button>
+
+        <nav
+          id="main-navigation"
+          aria-label="Main navigation"
+          className="hidden order-2 w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 text-gray-800 sm:gap-x-4 lg:flex lg:w-auto lg:flex-nowrap 2xl:gap-x-5"
+        >
           <Link
             href="/machines"
             aria-haspopup="true"
@@ -286,7 +352,7 @@ const Header = () => {
           <Link href="/news" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">NEWS &amp; EVENTS</Link>
         </nav>
 
-        <div className="order-3 ml-auto flex shrink-0 items-center gap-2 sm:gap-3 lg:ml-0 lg:order-3">
+        <div className="order-3 ml-auto hidden shrink-0 items-center gap-2 sm:gap-3 lg:ml-0 lg:flex">
           <select
             value={language}
             onChange={(event) => setLanguage(event.target.value as Language)}
@@ -299,6 +365,135 @@ const Header = () => {
           </select>
           <Button href="/contact" text="CONTACT US" className={styles.contactButton} />
         </div>
+
+        <nav
+          id="mobile-navigation"
+          aria-label="Mobile navigation"
+          className={`${mobileMenuOpen ? 'flex' : 'hidden'} order-4 max-h-[calc(100dvh-5rem)] w-full flex-col overflow-y-auto border-t border-gray-200 py-2 text-gray-800 lg:hidden`}
+        >
+          <div className="w-full">
+            <div>
+              <button
+                type="button"
+                aria-expanded={mobileExpandedSection === 'machines'}
+                aria-controls="mobile-machines-submenu"
+                onClick={() => toggleMobileSection('machines')}
+                className="flex w-full items-center justify-between py-3 text-left text-sm font-medium leading-tight tracking-tighter text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+              >
+                MACHINES
+                <DisclosureIcon expanded={mobileExpandedSection === 'machines'} />
+              </button>
+              <div
+                id="mobile-machines-submenu"
+                aria-hidden={mobileExpandedSection !== 'machines'}
+                className={`${mobileExpandedSection === 'machines' ? 'block' : 'hidden'} ml-2 border-l-2 border-gray-200 pl-3`}
+              >
+                <Link href="/machines" onClick={closeMenu} className="block py-2 text-sm font-semibold text-red-700 hover:text-red-800">ALL MACHINES</Link>
+                {machineCategories.map((category) => {
+                  const categoryExpanded = mobileExpandedMachineCategory === category.id
+
+                  return (
+                    <div key={category.id}>
+                      <div className="flex items-center">
+                        <Link href={category.href} onClick={closeMenu} className="min-w-0 flex-1 py-3 text-sm font-medium leading-tight text-gray-800 hover:text-red-700">
+                          {category.title}
+                        </Link>
+                        <button
+                          type="button"
+                          aria-label={`${categoryExpanded ? 'Hide' : 'Show'} ${category.title.toLowerCase()} models`}
+                          aria-expanded={categoryExpanded}
+                          aria-controls={`mobile-machine-category-${category.id}`}
+                          onClick={() => setMobileExpandedMachineCategory(categoryExpanded ? null : category.id)}
+                          className="inline-flex h-10 w-10 shrink-0 items-center justify-center text-gray-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+                        >
+                          <DisclosureIcon expanded={categoryExpanded} />
+                        </button>
+                      </div>
+                      <div
+                        id={`mobile-machine-category-${category.id}`}
+                        aria-hidden={!categoryExpanded}
+                        className={`${categoryExpanded ? 'block' : 'hidden'} border-l border-gray-200 pl-3`}
+                      >
+                        {category.cards.map((item) => (
+                          <Link key={item.href} href={item.href} onClick={closeMenu} className="block py-2 text-sm leading-tight text-gray-700 hover:text-red-700">
+                            {item.title}
+                          </Link>
+                        ))}
+                      </div>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+
+            <div>
+              <button
+                type="button"
+                aria-expanded={mobileExpandedSection === 'services'}
+                aria-controls="mobile-services-submenu"
+                onClick={() => toggleMobileSection('services')}
+                className="flex w-full items-center justify-between py-3 text-left text-sm font-medium leading-tight tracking-tighter text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+              >
+                SERVICES
+                <DisclosureIcon expanded={mobileExpandedSection === 'services'} />
+              </button>
+              <div
+                id="mobile-services-submenu"
+                aria-hidden={mobileExpandedSection !== 'services'}
+                className={`${mobileExpandedSection === 'services' ? 'block' : 'hidden'} ml-2 border-l-2 border-gray-200 pl-3`}
+              >
+                <Link href="/services" onClick={closeMenu} className="block py-2 text-sm font-semibold text-red-700 hover:text-red-800">ALL SERVICES</Link>
+                {serviceCards.map((item) => (
+                  <Link key={item.href} href={item.href} onClick={closeMenu} className="block py-2 text-sm leading-tight text-gray-700 hover:text-red-700">
+                    {item.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              <button
+                type="button"
+                aria-expanded={mobileExpandedSection === 'spares'}
+                aria-controls="mobile-spares-submenu"
+                onClick={() => toggleMobileSection('spares')}
+                className="flex w-full items-center justify-between py-3 text-left text-sm font-medium leading-tight tracking-tighter text-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+              >
+                SPARE PARTS
+                <DisclosureIcon expanded={mobileExpandedSection === 'spares'} />
+              </button>
+              <div
+                id="mobile-spares-submenu"
+                aria-hidden={mobileExpandedSection !== 'spares'}
+                className={`${mobileExpandedSection === 'spares' ? 'block' : 'hidden'} ml-2 border-l-2 border-gray-200 pl-3`}
+              >
+                <Link href="/spares" onClick={closeMenu} className="block py-2 text-sm font-semibold text-red-700 hover:text-red-800">ALL SPARE PARTS</Link>
+                {sparePartCards.map((item) => (
+                  <Link key={item.href} href={item.href} onClick={closeMenu} className="block py-2 text-sm leading-tight text-gray-700 hover:text-red-700">
+                    {item.title}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <Link href="/about-us" onClick={closeMenu} className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700">ABOUT US</Link>
+            <Link href="/news" onClick={closeMenu} className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700">NEWS &amp; EVENTS</Link>
+          </div>
+
+          <div className="mt-2 flex w-full items-center justify-between gap-3 border-t border-gray-200 pt-3">
+            <select
+              value={language}
+              onChange={(event) => setLanguage(event.target.value as Language)}
+              aria-label="Language"
+              className="block min-w-0 cursor-pointer rounded-sm border border-gray-300 px-2 py-1 text-sm font-medium text-gray-800 focus:outline-none focus:ring-1 focus:ring-red-700"
+            >
+              {LANGUAGES.map((language) => (
+                <option key={language.code} value={language.code}>{language.label}</option>
+              ))}
+            </select>
+            <Button href="/contact" text="CONTACT US" className={styles.contactButton} />
+          </div>
+        </nav>
       </div>
 
       {openPanel === 'machines' && (

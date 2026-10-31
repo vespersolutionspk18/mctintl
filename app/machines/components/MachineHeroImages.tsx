@@ -24,7 +24,7 @@ export default function MachineHeroImages({ images }: { images: MachineProductIm
           alt={selectedImage.alt}
           fill
           priority={selectedIndex === 0}
-          sizes="(max-width: 640px) 76vw, 54vw"
+          sizes="(max-width: 640px) 100vw, 54vw"
           className="object-contain object-center"
         />
       </div>

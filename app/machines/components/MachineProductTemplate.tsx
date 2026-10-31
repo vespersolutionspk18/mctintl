@@ -64,10 +64,15 @@ export default function MachineProductTemplate({
     <>
       <section className="relative w-full overflow-hidden bg-white lg:aspect-[1983/793]">
         <div className="relative flex flex-col lg:absolute lg:inset-0">
-          <div className="relative z-10 w-full px-4 py-5 font-stylish leading-tight tracking-tighter text-gray-600 sm:px-6 lg:w-[48%] lg:px-16 lg:py-8">
+          <div className="relative z-10 w-full px-4 pt-5 font-stylish leading-tight tracking-tighter text-gray-600 sm:px-6 lg:w-[48%] lg:px-16 lg:pt-8">
             <h1 className="max-w-full text-3xl font-semibold uppercase leading-tight tracking-tighter sm:text-4xl">{title}</h1>
+          </div>
+          <div className="relative ml-auto mt-2 h-56 w-full sm:h-72 lg:absolute lg:inset-y-0 lg:right-0 lg:m-0 lg:h-full lg:w-[54%]">
+            <MachineHeroImages images={[{ src: heroImage, alt: heroImageAlt }, ...gallery]} />
+          </div>
+          <div className="relative z-10 w-full px-4 sm:px-6 lg:w-[48%] lg:px-16">
             <p className="mt-3 font-sans text-base leading-relaxed tracking-tighter text-gray-800 sm:text-lg sm:leading-tight">{description}</p>
-            <p className="mt-3 font-sans text-base leading-relaxed tracking-tighter text-gray-800 sm:text-lg sm:leading-tight">{overview}</p>
+            <p className="mt-3 pb-5 font-sans text-base leading-relaxed tracking-tighter text-gray-800 sm:text-lg sm:leading-tight lg:pb-8">{overview}</p>
           </div>
           <div role="group" aria-label="Machine capabilities" className="grid w-full grid-cols-2 gap-2 px-4 pb-3 sm:grid-cols-3 sm:px-6 lg:mt-0 lg:w-[48%] lg:grid-cols-5 lg:px-16 lg:pb-0">
             {capabilities.map((capability) => (
@@ -82,9 +87,6 @@ export default function MachineProductTemplate({
                 <p className="mt-1 font-sans text-[13px] leading-tight tracking-tighter text-gray-800 sm:text-sm">{capability.text}</p>
               </div>
             ))}
-          </div>
-          <div className="relative ml-auto h-56 w-full sm:h-72 lg:absolute lg:inset-y-0 lg:right-0 lg:m-0 lg:h-full lg:w-[54%]">
-            <MachineHeroImages images={[{ src: heroImage, alt: heroImageAlt }, ...gallery]} />
           </div>
         </div>
       </section>
