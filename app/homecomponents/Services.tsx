@@ -59,7 +59,7 @@ const Services = () => {
             
         </div>
 
-        <img src="/3DPACKETSFINAL.webp" alt="Cigarette pack size and packet variations" className="mt-10 w-full sm:mt-12 lg:mt-16" />
+        <img src="/PACKET3D.png" alt="Cigarette pack size and packet variations" className="mt-10 w-full sm:mt-12 lg:mt-16" />
     </div>
   )
 }
