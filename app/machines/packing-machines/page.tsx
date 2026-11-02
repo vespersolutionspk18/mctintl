@@ -79,7 +79,7 @@ const packingMachines: MachineGroup[] = [
   {
     id: 'overwrapper',
     title: 'OVERWRAPPER MACHINE',
-    image: '/mti-ow25-1-over-wrapper-cutout.webp',
+    image: '/mti-ow25-1-over-wrapper-reflection.png',
     imageAlt: 'Microtex MTI-OW25-1 cigarette overwrapper',
     imageZoom: 1.24,
     cta: { href: '/machines/packing-machines/over-wrapper-mti-ow25-1', text: 'LEARN MORE' },

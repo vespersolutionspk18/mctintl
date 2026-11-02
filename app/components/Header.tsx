@@ -13,7 +13,7 @@ const LANGUAGES = [
   { code: 'pl', label: 'Polski' },
   { code: 'es', label: 'Español' },
   { code: 'ar', label: 'العربية' },
-  { code: 'pt', label: 'Português' },
+  { code: 'ru', label: 'Русский' },
 ]
 
 type MenuCardItem = {
@@ -25,9 +25,10 @@ type MenuCardItem = {
 }
 
 type MachineCategory = {
-  id: 'making' | 'packing'
+  id: 'making' | 'packing' | 'filter' | 'utilities'
   title: string
   href: string
+  countLabel?: string
   cards: MenuCardItem[]
 }
 
@@ -84,7 +85,7 @@ const machineCategories: MachineCategory[] = [
       },
       {
         title: 'OVERWRAPPER MACHINE',
-        image: '/mti-ow25-1-over-wrapper-cutout.webp',
+        image: '/mti-ow25-1-over-wrapper-reflection.png',
         imageAlt: 'Microtex MTI-OW25-1 overwrapping machine',
         href: '/machines/packing-machines/over-wrapper-mti-ow25-1',
       },
@@ -105,6 +106,75 @@ const machineCategories: MachineCategory[] = [
         image: '/mti-cp06-1-case-packer-cutout.webp',
         imageAlt: 'Microtex MTI-CP06-1 cigarette case packer',
         href: '/machines/packing-machines/case-packer',
+      },
+    ],
+  },
+  {
+    id: 'filter',
+    title: 'FILTER MACHINES',
+    href: '/machines/filter-machines',
+    cards: [
+      {
+        title: 'KDF2 FILTER ROD MAKER',
+        image: '/kdf2-filter-maker-cutout.png',
+        imageAlt: 'Refurbished Hauni KDF2 filter rod making machine',
+        href: '/machines/filter-machines/kdf2-filter-maker',
+      },
+    ],
+  },
+  {
+    id: 'utilities',
+    title: 'UTILITIES & ACCESSORIES',
+    href: '/machines/utilities-accessories',
+    countLabel: 'products',
+    cards: [
+      {
+        title: 'MOLINS TOBACCO CUTTER MRTC MK1',
+        image: '/molinscutter-refurbished-reflection.png',
+        imageAlt: 'Molins industrial tobacco rotary cutter',
+        href: '/machines/utilities-accessories/molins-tobacco-cutter-mrtc-mk1',
+      },
+      {
+        title: 'TOBACCO RECLAIMER',
+        image: '/reclaimer2-floor-reflection.png',
+        imageAlt: 'Industrial tobacco reclaimer',
+        href: '/machines/utilities-accessories/tobacco-reclaimer',
+      },
+      {
+        title: 'AUTOMATIC TOBACCO FEEDER',
+        image: '/autotobaccofeeder-floor-reflection.png',
+        imageAlt: 'Automatic tobacco feeder',
+        href: '/machines/utilities-accessories/automatic-tobacco-feeder',
+      },
+      {
+        title: 'TOBACCO DUST COLLECTOR',
+        image: '/dustcollector1-floor-reflection.png',
+        imageAlt: 'Industrial tobacco dust collector',
+        href: '/machines/utilities-accessories/tobacco-dust-collector',
+      },
+      {
+        title: 'VACUUM PUMPS',
+        image: '/vacuumpump1-floor-reflection.png',
+        imageAlt: 'Industrial dry claw vacuum pump',
+        href: '/machines/utilities-accessories/vacuum-pumps',
+      },
+      {
+        title: 'AIR COMPRESSORS WITH DRYER PACKAGE',
+        image: '/aircompressor-floor-reflection.png',
+        imageAlt: 'Industrial air compressor with dryer package',
+        href: '/machines/utilities-accessories/air-compressors-with-dryer-package',
+      },
+      {
+        title: 'CIGARETTE & FILTER TRAYS AND TROLLEYS',
+        image: '/trolley1-floor-reflection.png',
+        imageAlt: 'Mobile trolley for cigarette and filter trays',
+        href: '/machines/utilities-accessories/cigarette-filter-trays-and-trolleys',
+      },
+      {
+        title: 'SHRINK HEAT TUNNEL',
+        image: '/shrinkheattunnel-floor-reflection.png',
+        imageAlt: 'Industrial shrink heat tunnel',
+        href: '/machines/utilities-accessories/shrink-heat-tunnel',
       },
     ],
   },
@@ -262,7 +332,7 @@ const Header = () => {
     >
       <div className="mx-auto flex w-full max-w-7xl flex-wrap items-center justify-between gap-x-4 gap-y-3">
         <Link href="/" onClick={closeMenu} className="order-1 shrink-0">
-          <Image src="/logo.webp" alt="Microtex International" width={200} height={80} priority className="h-auto w-28 sm:w-[200px]" />
+          <Image src="/logomain.svg" alt="Microtex International" width={1845} height={312} preload unoptimized className="h-auto w-28 sm:w-[200px]" />
         </Link>
 
         <button
@@ -388,7 +458,13 @@ const Header = () => {
                 <p className="text-xs font-semibold tracking-wide text-gray-500">MACHINES</p>
                 <h2 className="mt-1 font-stylish text-xl font-semibold text-gray-700">{activeCategory.title}</h2>
               </div>
-              <Link href="/machines" onClick={closeMenu} className="text-sm font-semibold text-red-700 underline underline-offset-4 hover:text-red-800">ALL MACHINES</Link>
+              <Link
+                href={activeCategory.id === 'utilities' ? activeCategory.href : '/machines'}
+                onClick={closeMenu}
+                className="text-sm font-semibold text-red-700 underline underline-offset-4 hover:text-red-800"
+              >
+                {activeCategory.id === 'utilities' ? 'ALL UTILITIES & ACCESSORIES' : 'ALL MACHINES'}
+              </Link>
             </div>
 
             <div className="mt-4 grid gap-4 lg:grid-cols-[190px_minmax(0,1fr)]">
@@ -404,18 +480,12 @@ const Header = () => {
                       className={`flex min-w-0 flex-1 flex-col items-start border px-2 py-2 text-left transition-colors lg:flex-none ${activeMachineCategory === category.id ? 'border-red-700 bg-red-50 text-red-800' : 'border-gray-200 bg-white text-gray-700 hover:border-gray-400'}`}
                     >
                       <span className="text-xs font-semibold leading-tight">{category.title}</span>
-                      <span className="mt-0.5 font-sans text-[11px] text-gray-600">{category.cards.length} machines</span>
+                      <span className="mt-0.5 font-sans text-[11px] text-gray-600">
+                        {category.cards.length} {category.countLabel ?? (category.cards.length === 1 ? 'machine' : 'machines')}
+                      </span>
                     </Link>
                   ))}
                 </nav>
-                <div className="mt-2 grid grid-cols-2 gap-2 lg:grid-cols-1">
-                  <div className="border border-gray-200 bg-white px-2 py-2 text-xs font-semibold leading-tight text-gray-700">
-                    REBUILT MACHINES
-                  </div>
-                  <div className="border border-gray-200 bg-white px-2 py-2 text-xs font-semibold leading-tight text-gray-700">
-                    OTHER PRODUCTS
-                  </div>
-                </div>
               </aside>
 
               <div id="machine-card-panel" className="min-w-0">

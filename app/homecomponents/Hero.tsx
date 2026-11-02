@@ -16,7 +16,7 @@ const Hero = ({
 }: HeroProps) => {
   return (
     <div className="relative w-full overflow-hidden">
-      <Image src={imageSrc} alt={imageAlt} width={1983} height={793} priority sizes="100vw" className="block h-auto w-full" />
+      <Image src={imageSrc} alt={imageAlt} width={1983} height={793} preload sizes="100vw" className="block h-auto w-full" />
       <div className="absolute inset-0" />
       <div className="absolute inset-0 z-10">
         <div className="px-4 py-3 font-stylish leading-tight tracking-tighter text-white sm:px-8 sm:py-6 lg:px-16 lg:py-8">

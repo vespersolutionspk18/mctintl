@@ -49,7 +49,7 @@ const machineGroups: MachineGroup[] = [
   {
     id: 'packing',
     title: 'PACKING MACHINES',
-    image: '/microtex-overwrapper-mti-ow25-1.webp',
+    image: '/mti-ow25-1-over-wrapper-reflection.png',
     imageAlt: 'MTI-OW25 cigarette overwrapping machine',
     description:
       'From primary wrapping and overwrapping to end-of-line case packing, explore equipment for the different stages of your cigarette packaging line.',
@@ -66,6 +66,69 @@ const machineGroups: MachineGroup[] = [
       {
         text: 'Printed film for branded packs and product information.',
         icons: ['/icons/industry/film-roll.webp'],
+      },
+    ],
+  },
+  {
+    id: 'filter',
+    title: 'FILTER MACHINES',
+    image: '/kdf2-filter-maker-cutout.png',
+    imageAlt: 'Refurbished Hauni KDF2 filter rod making machine',
+    description:
+      'The KDF2 is a high-speed filter rod maker producing up to 400 meters per minute, with an optional 500 meters per minute configuration. Five servo motors and a Siemens S7-300 PLC support synchronized production.',
+    details: [
+      'Refurbished with upgraded motors and electronics after a full strip-down and rebuild.',
+      'Configured with an integrated tow opener and automatic tray filler system.',
+    ],
+    cta: { href: '/machines/filter-machines', text: 'VIEW FILTER MACHINES' },
+    compactFeatures: true,
+    features: [
+      {
+        title: 'OUTPUT',
+        text: '400 m/min · 500 m/min optional',
+        icons: ['/icons/industry/output-speed.webp'],
+      },
+      {
+        title: 'FILTER ROD',
+        text: '6–9 mm diameter · 64–150 mm length',
+        icons: ['/icons/industry/format-gauge.webp'],
+      },
+      {
+        title: 'CONTROL',
+        text: 'SIEMENS S7-300 PLC · 5 servo motors',
+        icons: ['/icons/industry/gears.webp'],
+      },
+    ],
+  },
+  {
+    id: 'utilities-accessories',
+    title: 'UTILITIES & ACCESSORIES',
+    image: '/reclaimer2-floor-reflection.png',
+    imageAlt: 'Industrial tobacco reclaimer with an infeed hopper and takeaway conveyor',
+    description:
+      'Equipment for tobacco cutting, recovery and feeding, plus dust extraction, compressed air, vacuum, shrink wrapping and tray handling.',
+    details: [
+      'Explore the Molins MRTC Mk1 cutter, tobacco reclaimers and automatic feeders.',
+      'Find dust collectors, dry claw vacuum pumps and air compressor packages with dryers.',
+      'Browse shrink tunnels, cigarette and filter trays, and mobile trolley racks.',
+    ],
+    cta: { href: '/machines/utilities-accessories', text: 'EXPLORE UTILITIES & ACCESSORIES' },
+    compactFeatures: true,
+    features: [
+      {
+        title: 'TOBACCO PROCESSING',
+        text: 'Cutting, recovery and automatic feeding.',
+        icons: ['/icons/industry/cutter-blade.webp', '/icons/industry/gears.webp'],
+      },
+      {
+        title: 'PLANT UTILITIES',
+        text: 'Dust collection, compressed air and vacuum.',
+        icons: ['/icons/industry/power-gauge.webp', '/icons/industry/service-tools.webp'],
+      },
+      {
+        title: 'LINE HANDLING',
+        text: 'Shrink wrapping, trays and mobile trolleys.',
+        icons: ['/icons/industry/film-roll.webp', '/icons/industry/format-gauge.webp'],
       },
     ],
   },

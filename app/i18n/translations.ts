@@ -1,4 +1,4 @@
-export type Language = 'en' | 'pl' | 'es' | 'ar' | 'pt'
+export type Language = 'en' | 'pl' | 'es' | 'ar' | 'ru'
 
 type TranslationRow = readonly [string, string, string, string, string]
 
@@ -8,6 +8,10 @@ type TranslationRow = readonly [string, string, string, string, string]
 const phraseRows: TranslationRow[] = [
   ['ABOUT US', 'O NAS', 'SOBRE NOSOTROS', 'معلومات عنا', 'SOBRE NÓS'],
   ['MACHINES', 'MASZYNY', 'MÁQUINAS', 'الآلات', 'MÁQUINAS'],
+  ['FILTER MACHINES', 'MASZYNY DO PRODUKCJI FILTRÓW', 'MÁQUINAS PARA FABRICAR FILTROS', 'آلات تصنيع الفلاتر', 'MÁQUINAS PARA FABRICAR FILTROS'],
+  ['FILTER ROD MAKER', 'MASZYNA DO PRODUKCJI PRĘTÓW FILTRACYJNYCH', 'MÁQUINA PARA FABRICAR BARRAS DE FILTRO', 'آلة تصنيع قضبان الفلتر', 'MÁQUINA PARA FABRICAR BASTÕES DE FILTRO'],
+  ['KDF2 FILTER ROD MAKING MACHINE', 'MASZYNA KDF2 DO PRODUKCJI PRĘTÓW FILTRACYJNYCH', 'MÁQUINA KDF2 PARA FABRICAR BARRAS DE FILTRO', 'آلة KDF2 لتصنيع قضبان الفلتر', 'MÁQUINA KDF2 PARA FABRICAR BASTÕES DE FILTRO'],
+  ['UTILITIES & ACCESSORIES', 'URZĄDZENIA POMOCNICZE I AKCESORIA', 'UTILIDADES Y ACCESORIOS', 'المرافق والملحقات', 'UTILIDADES E ACESSÓRIOS'],
   ['SERVICES', 'USŁUGI', 'SERVICIOS', 'الخدمات', 'SERVIÇOS'],
   ['SPARE PARTS', 'CZĘŚCI ZAMIENNE', 'REPUESTOS', 'قطع الغيار', 'PEÇAS DE REPOSIÇÃO'],
   ['NEWS', 'AKTUALNOŚCI', 'NOTICIAS', 'الأخبار', 'NOTÍCIAS'],
@@ -1619,7 +1623,7 @@ const glossaryRows: TranslationRow[] = [
   ['sign', 'szyld', 'letrero', 'لافتة', 'placa'],
 ]
 
-const localeIndex: Record<Exclude<Language, 'en'>, number> = { pl: 1, es: 2, ar: 3, pt: 4 }
+const localeIndex: Record<Exclude<Language, 'en' | 'ru'>, number> = { pl: 1, es: 2, ar: 3 }
 const phrases = new Map<string, TranslationRow>()
 const words = new Map<string, TranslationRow>()
 
@@ -1629,6 +1633,259 @@ for (const row of glossaryRows) {
   if (!words.has(key)) words.set(key, row)
   if (key.includes(' ') && !phrases.has(key)) phrases.set(key, row)
 }
+
+type RussianTranslationRow = readonly [source: string, translated: string]
+
+const russianRows: RussianTranslationRow[] = [
+  ['ABOUT US', 'О КОМПАНИИ'],
+  ['MACHINES', 'МАШИНЫ'],
+  ['FILTER MACHINES', 'МАШИНЫ ДЛЯ ПРОИЗВОДСТВА ФИЛЬТРОВ'],
+  ['FILTER ROD MAKER', 'МАШИНА ДЛЯ ПРОИЗВОДСТВА ФИЛЬТРУЮЩИХ СТЕРЖНЕЙ'],
+  ['KDF2 FILTER ROD MAKING MACHINE', 'МАШИНА KDF2 ДЛЯ ПРОИЗВОДСТВА ФИЛЬТРУЮЩИХ СТЕРЖНЕЙ'],
+  ['UTILITIES & ACCESSORIES', 'ВСПОМОГАТЕЛЬНОЕ ОБОРУДОВАНИЕ И АКСЕССУАРЫ'],
+  ['SERVICES', 'УСЛУГИ'],
+  ['SPARE PARTS', 'ЗАПАСНЫЕ ЧАСТИ'],
+  ['NEWS', 'НОВОСТИ'],
+  ['NEWS & EVENTS', 'НОВОСТИ И СОБЫТИЯ'],
+  ['CONTACT US', 'СВЯЖИТЕСЬ С НАМИ'],
+  ['ALL MACHINES', 'ВСЕ МАШИНЫ'],
+  ['ALL SERVICES', 'ВСЕ УСЛУГИ'],
+  ['ALL SPARE PARTS', 'ВСЕ ЗАПАСНЫЕ ЧАСТИ'],
+  ['MAKING MACHINES', 'МАШИНЫ ДЛЯ ПРОИЗВОДСТВА СИГАРЕТ'],
+  ['PACKING MACHINES', 'УПАКОВОЧНЫЕ МАШИНЫ'],
+  ['REBUILT MACHINES', 'ВОССТАНОВЛЕННЫЕ МАШИНЫ'],
+  ['OTHER PRODUCTS', 'ДРУГИЕ ПРОДУКТЫ'],
+  ['UPGRADATION & INSTALLATION', 'МОДЕРНИЗАЦИЯ И УСТАНОВКА'],
+  ['FORMAT & CONVERSION KITS', 'КОМПЛЕКТЫ ДЛЯ СМЕНЫ ФОРМАТА И ПЕРЕОСНАЩЕНИЯ'],
+  ['SUPPORT SERVICES & REBUILDING', 'ТЕХНИЧЕСКАЯ ПОДДЕРЖКА И ВОССТАНОВЛЕНИЕ МАШИН'],
+  ['MK8/MK9/MK95 SPARE PARTS', 'ЗАПАСНЫЕ ЧАСТИ ДЛЯ MK8/MK9/MK95'],
+  ['PROTOS 70 / 80 / 90 SPARE PARTS', 'ЗАПАСНЫЕ ЧАСТИ ДЛЯ PROTOS 70 / 80 / 90'],
+  ['HLP PACKER SPARE PARTS', 'ЗАПАСНЫЕ ЧАСТИ ДЛЯ УПАКОВОЧНЫХ МАШИН HLP'],
+  ['GD PACKER SPARE PARTS', 'ЗАПАСНЫЕ ЧАСТИ ДЛЯ УПАКОВОЧНЫХ МАШИН GD'],
+  ['GARNITURE & SUCTION TAPES', 'ГАРНИТУРНЫЕ И ВАКУУМНЫЕ ЛЕНТЫ'],
+  ['COMPANY', 'КОМПАНИЯ'],
+  ['Privacy Policy', 'Политика конфиденциальности'],
+  ['Terms & Conditions', 'Условия использования'],
+  ['English', 'английский'],
+  ['Polish', 'польский'],
+  ['Spanish', 'испанский'],
+  ['Arabic', 'арабский'],
+  ['Russian', 'русский'],
+  ['LANGUAGE', 'ЯЗЫК'],
+  ['Language', 'Язык'],
+  ['INSTALLATION', 'УСТАНОВКА'],
+  ['UP-GRADATION', 'МОДЕРНИЗАЦИЯ'],
+  ['EXPERT TRAINING', 'ПРОФЕССИОНАЛЬНОЕ ОБУЧЕНИЕ'],
+  ['CIGARETTE MAKERS', 'МАШИНЫ ДЛЯ ПРОИЗВОДСТВА СИГАРЕТ'],
+  ['PACKERS & WRAPPERS', 'УПАКОВОЧНЫЕ И ОБЁРТОЧНЫЕ МАШИНЫ'],
+  ['END-OF-LINE', 'КОНЕЦ ПРОИЗВОДСТВЕННОЙ ЛИНИИ'],
+  ['ASSEMBLY & INSPECTION', 'СБОРКА И КОНТРОЛЬ'],
+  ['REBUILDING SERVICES', 'УСЛУГИ ПО ВОССТАНОВЛЕНИЮ МАШИН'],
+  ['MAINTENANCE', 'ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ'],
+  ['TECHNICAL DATA', 'ТЕХНИЧЕСКИЕ ДАННЫЕ'],
+  ['BASIC INFO', 'ОСНОВНЫЕ СВЕДЕНИЯ'],
+  ['FEATURES', 'ХАРАКТЕРИСТИКИ'],
+  ['RELATED MACHINES', 'ПОХОЖИЕ МАШИНЫ'],
+  ['GET IN TOUCH', 'СВЯЖИТЕСЬ С НАМИ'],
+  ['EMAIL US', 'НАПИШИТЕ НАМ'],
+  ['CALL US', 'ПОЗВОНИТЕ НАМ'],
+  ['VISIT US', 'ПОСЕТИТЕ НАС'],
+  ['Get directions', 'Построить маршрут'],
+  ['SEND US YOUR INQUIRY', 'ОТПРАВЬТЕ НАМ ЗАПРОС'],
+  ['Full name *', 'Полное имя *'],
+  ['Company', 'Компания'],
+  ['Email address *', 'Адрес электронной почты *'],
+  ['Interested in *', 'Тема запроса *'],
+  ['Select a topic', 'Выберите тему'],
+  ['Machinery', 'Машины и оборудование'],
+  ['Spare parts', 'Запасные части'],
+  ['Services and support', 'Услуги и техническая поддержка'],
+  ['Other', 'Другое'],
+  ['Message *', 'Сообщение *'],
+  ['SEND INQUIRY', 'ОТПРАВИТЬ ЗАПРОС'],
+  ['Your name', 'Ваше имя'],
+  ['Company name', 'Название компании'],
+  ['Tell us about your requirements', 'Расскажите о ваших требованиях'],
+  ['READY TO UPGRADE YOUR LINE?', 'ГОТОВЫ МОДЕРНИЗИРОВАТЬ ПРОИЗВОДСТВЕННУЮ ЛИНИЮ?'],
+  ['EVERYTHING YOUR CIGARETTE LINE NEEDS, UNDER ONE ROOF.', 'ВСЁ НЕОБХОДИМОЕ ДЛЯ ВАШЕЙ СИГАРЕТНОЙ ЛИНИИ — В ОДНОМ МЕСТЕ.'],
+  ['CIGARETTE MAKEPACK MACHINERY &', 'ОБОРУДОВАНИЕ ДЛЯ ПРОИЗВОДСТВА И УПАКОВКИ СИГАРЕТ И'],
+  ['HIGHEST QUALITY FOR THE BEST PRICE', 'ВЫСОКОЕ КАЧЕСТВО ПО ВЫГОДНОЙ ЦЕНЕ'],
+  ['OUTPUT', 'ПРОИЗВОДИТЕЛЬНОСТЬ'],
+  ['FORMAT', 'ФОРМАТ'],
+  ['POWER / WEIGHT', 'МОЩНОСТЬ / МАССА'],
+  ['CONFIGURATION', 'КОНФИГУРАЦИЯ'],
+  ['IN-FEED', 'ПОДАЧА'],
+  ['WEIGHT', 'МАССА'],
+  ['POWER', 'МОЩНОСТЬ'],
+  ['PACK STYLES', 'ТИПЫ УПАКОВКИ'],
+  ['PACK FORMAT', 'ФОРМАТ УПАКОВКИ'],
+  ['CIGARETTE SIZE', 'РАЗМЕР СИГАРЕТЫ'],
+  ['PACK CONFIGURATION', 'КОНФИГУРАЦИЯ УПАКОВКИ'],
+  ['PRODUCT LENGTH / WIDTH', 'ДЛИНА / ШИРИНА ИЗДЕЛИЯ'],
+  ['PRODUCT THICKNESS', 'ТОЛЩИНА ИЗДЕЛИЯ'],
+  ['STANDARD COLLATION', 'СТАНДАРТНАЯ КОМПОНОВКА'],
+  ['PRODUCT DIMENSIONS', 'РАЗМЕРЫ ИЗДЕЛИЯ'],
+  ['TYPE / APPLICATION', 'ТИП / ПРИМЕНЕНИЕ'],
+  ['SEALING / AIR', 'ЗАПЕЧАТЫВАНИЕ / ВОЗДУХ'],
+  ['Cigarettes per Pack', 'Сигарет в пачке'],
+  ['Cigarette Diameter', 'Диаметр сигареты'],
+  ['Cigarette Length', 'Длина сигареты'],
+  ['Custom Collations', 'Индивидуальная компоновка'],
+  ['Pack Styles', 'Типы упаковки'],
+  ['Wrapping System', 'Система обёртки'],
+  ['Packing Materials', 'Упаковочные материалы'],
+  ['Floor Space', 'Площадь установки'],
+  ['Machine Height', 'Высота машины'],
+  ['Products', 'Продукция'],
+  ['Application', 'Применение'],
+  ['Quality Control', 'Контроль качества'],
+  ['Operational Mode', 'Режим работы'],
+  ['Product Application', 'Применение продукции'],
+  ['Other Characteristics', 'Другие характеристики'],
+  ['Other Configurations', 'Другие конфигурации'],
+  ['Compressed Air', 'Сжатый воздух'],
+  ['In-Feed Height', 'Высота подачи'],
+  ['Out-Feed Height', 'Высота выгрузки'],
+  ['Events', 'СОБЫТИЯ'],
+  ['Show catalogue', 'Открыть каталог'],
+  ['Exhibitor profile', 'Профиль участника выставки'],
+  ['Dubai, UAE', 'Дубай, ОАЭ'],
+  ['CONTACT US NOW', 'СВЯЖИТЕСЬ С НАМИ'],
+  ['THE RIGHT PART FOR YOUR MACHINE', 'ПОДХОДЯЩАЯ ДЕТАЛЬ ДЛЯ ВАШЕЙ МАШИНЫ'],
+  ['NEED A SPARE PART?', 'НУЖНА ЗАПАСНАЯ ЧАСТЬ?'],
+  ['GARNITURE TAPE FEATURES', 'ХАРАКТЕРИСТИКИ ГАРНИТУРНОЙ ЛЕНТЫ'],
+  ['PARTS CATALOGUE', 'КАТАЛОГ ЗАПАСНЫХ ЧАСТЕЙ'],
+  ['High-temperature tolerance', 'Устойчивость к высоким температурам'],
+  ['Low extensibility', 'Низкое удлинение'],
+  ['High fracture strength', 'Высокая прочность на разрыв'],
+  ['Long service life', 'Длительный срок службы'],
+  ['High tensile strength', 'Высокая прочность на растяжение'],
+  ['Machine type', 'Тип машины'],
+  ['Manufacturer', 'Производитель'],
+  ['Speed (cigarettes/min)', 'Скорость (сигарет/мин)'],
+  ['Garniture size (mm)', 'Размер гарнитуры (мм)'],
+  ['Dimensions (mm)', 'Размеры (мм)'],
+  ['Format kits for more equipment', 'Комплекты смены формата для другого оборудования'],
+  ['We provide format kits for the following and more:', 'Мы поставляем комплекты смены формата для перечисленных ниже и других машин:'],
+  ['Responding to new product requirements', 'Адаптация к новым требованиям к продукции'],
+  ['Upgrading existing equipment', 'Модернизация существующего оборудования'],
+  ['Expert training for clients', 'Профессиональное обучение клиентов'],
+  ['A structured problem-solving process', 'Системный подход к решению задач'],
+  ['From requirements to improvement', 'От требований к улучшениям'],
+  ['Our Focus', 'Наши задачи'],
+  ['Rebuilding Services', 'Услуги по восстановлению машин'],
+  ['Functional Rebuild', 'Функциональное восстановление'],
+  ['Preventative Maintenance', 'Профилактическое обслуживание'],
+  ['Ask: Identify requirements & constraints.', 'Спросите: определите требования и ограничения.'],
+  ['Research the problem.', 'Изучите проблему.'],
+  ['Microtex International', 'Microtex International'],
+  ['Open menu', 'Открыть меню'],
+  ['Close menu', 'Закрыть меню'],
+  ['Main navigation', 'Основная навигация'],
+  ['Machine categories', 'Категории машин'],
+  ['Machine menu', 'Меню машин'],
+  ['Service menu', 'Меню услуг'],
+  ['Spares menu', 'Меню запасных частей'],
+  ['machine', 'машина'],
+  ['machines', 'машины'],
+  ['equipment', 'оборудование'],
+  ['part', 'деталь'],
+  ['parts', 'детали'],
+  ['spare', 'запасной'],
+  ['service', 'услуга'],
+  ['services', 'услуги'],
+  ['support', 'поддержка'],
+  ['system', 'система'],
+  ['systems', 'системы'],
+  ['production', 'производство'],
+  ['manufacturing', 'производство'],
+  ['line', 'линия'],
+  ['lines', 'линии'],
+  ['packaging', 'упаковка'],
+  ['packing', 'упаковка'],
+  ['cigarette', 'сигарета'],
+  ['cigarettes', 'сигареты'],
+  ['filter', 'фильтр'],
+  ['filters', 'фильтры'],
+  ['rod', 'стержень'],
+  ['maker', 'машина для производства'],
+  ['making', 'производство'],
+  ['packer', 'упаковочная машина'],
+  ['packers', 'упаковочные машины'],
+  ['wrapper', 'обёрточная машина'],
+  ['wrappers', 'обёрточные машины'],
+  ['product', 'продукт'],
+  ['products', 'продукция'],
+  ['quality', 'качество'],
+  ['industrial', 'промышленный'],
+  ['tobacco', 'табак'],
+  ['technical', 'технический'],
+  ['data', 'данные'],
+  ['information', 'информация'],
+  ['features', 'характеристики'],
+  ['related', 'связанные'],
+  ['output', 'производительность'],
+  ['format', 'формат'],
+  ['configuration', 'конфигурация'],
+  ['weight', 'масса'],
+  ['power', 'мощность'],
+  ['speed', 'скорость'],
+  ['dimensions', 'размеры'],
+  ['length', 'длина'],
+  ['width', 'ширина'],
+  ['height', 'высота'],
+  ['installation', 'установка'],
+  ['upgrade', 'модернизация'],
+  ['maintenance', 'обслуживание'],
+  ['training', 'обучение'],
+  ['expert', 'специалист'],
+  ['manufacturer', 'производитель'],
+  ['catalogue', 'каталог'],
+  ['catalog', 'каталог'],
+  ['inspection', 'контроль'],
+  ['assembly', 'сборка'],
+  ['process', 'процесс'],
+  ['conveyor', 'конвейер'],
+  ['belt', 'лента'],
+  ['tape', 'лента'],
+  ['roller', 'ролик'],
+  ['rollers', 'ролики'],
+  ['gear', 'шестерня'],
+  ['gears', 'шестерни'],
+  ['shaft', 'вал'],
+  ['shafts', 'валы'],
+  ['cutting', 'резка'],
+  ['cutting parts', 'режущие детали'],
+  ['spare parts', 'запасные части'],
+  ['technical support', 'техническая поддержка'],
+  ['production line', 'производственная линия'],
+  ['cigarette maker', 'машина для производства сигарет'],
+  ['filter rod maker', 'машина для производства фильтрующих стержней'],
+  ['cigarette packing line', 'линия упаковки сигарет'],
+  ['machine requirements', 'требования к машине'],
+  ['product information', 'информация о продукции'],
+  ['contact information', 'контактная информация'],
+  ['all rights reserved', 'все права защищены'],
+]
+
+const russianPhrases = new Map<string, string>()
+const russianWords = new Map<string, string>()
+
+for (const [source, translated] of russianRows) {
+  const key = normalize(source)
+  if (key.includes(' ')) russianPhrases.set(key, translated)
+  else russianWords.set(key, translated)
+}
+
+const russianCompoundPhrases = [...russianPhrases.entries()]
+  .sort((a, b) => b[0].length - a[0].length)
+  .map(([key, translated]) => ({
+    translated,
+    pattern: new RegExp(
+      '(^|[^A-Za-z0-9])(' + key.split(' ').map(escapeRegex).join('\\s+') + ')(?![A-Za-z0-9])',
+      'gi',
+    ),
+  }))
 
 const compoundPhrases = [...phrases.entries()]
   .filter(([key]) => key.includes(' '))
@@ -1662,6 +1919,23 @@ function preserveCase(source: string, target: string, language: Language) {
 
 export function translateText(value: string, language: Language): string {
   if (language === 'en' || !value.trim()) return value
+  if (language === 'ru') {
+    const key = normalize(value)
+    const exact = russianPhrases.get(key) ?? russianWords.get(key)
+    if (exact) return preserveCase(value, exact, language)
+
+    let translated = value
+    for (const { translated: target, pattern } of russianCompoundPhrases) {
+      translated = translated.replace(pattern, (_match, boundary: string, source: string) => {
+        return boundary + preserveCase(source, target, language)
+      })
+    }
+    return translated.replace(/[\p{L}]+(?:[’'][\p{L}]+)?/gu, (source) => {
+      const target = russianWords.get(normalize(source))
+      return target === undefined ? source : preserveCase(source, target, language)
+    })
+  }
+
   const key = normalize(value)
   const exact = phrases.get(key)
   if (exact) return exact[localeIndex[language]]
@@ -1681,5 +1955,5 @@ export function translateText(value: string, language: Language): string {
 }
 
 export function isLanguage(value: string): value is Language {
-  return value === 'en' || value === 'pl' || value === 'es' || value === 'ar' || value === 'pt'
+  return value === 'en' || value === 'pl' || value === 'es' || value === 'ar' || value === 'ru'
 }

@@ -9,16 +9,16 @@ const related = {
   hlp250: [
     { title: 'HINGE LID PACKER MTI-HLP2', image: '/hlp2a.webp', imageAlt: 'Microtex MTI-HLP2 hinge-lid packer', href: '/machines/packing-machines/hlp-2' },
     { title: 'PACKET WRAPPER', image: '/packeta.webp', imageAlt: 'Microtex packet wrapper', href: '/machines/packing-machines/packet-wrapper' },
-    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-cutout.webp', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
+    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
   ],
   hlp2: [
     { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
     { title: 'PACKET WRAPPER', image: '/packeta.webp', imageAlt: 'Microtex packet wrapper', href: '/machines/packing-machines/packet-wrapper' },
-    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-cutout.webp', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
+    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
   ],
   packetWrapper: [
     { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
-    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-cutout.webp', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
+    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
     { title: 'HIGH-SPEED BOXER MACHINE', image: '/boxer machine.webp', imageAlt: 'Microtex high-speed boxer machine', href: '/machines/packing-machines/high-speed-boxer' },
   ],
   boxer: [
@@ -33,7 +33,7 @@ const related = {
   ],
   casePacker: [
     { title: 'HIGH-SPEED BOXER MACHINE', image: '/boxer machine.webp', imageAlt: 'Microtex high-speed boxer machine', href: '/machines/packing-machines/high-speed-boxer' },
-    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-cutout.webp', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
+    { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
     { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
   ],
 } satisfies Record<string, RelatedMachine[]>
