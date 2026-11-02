@@ -26,34 +26,37 @@ const machineGroups: MachineGroup[] = [
   {
     id: 'making',
     title: 'MAKING MACHINES',
-    image: '/mk8d-cigarette-maker.webp',
+    image: '/mk8da.webp',
     imageAlt: 'Cigarette making machine',
     description:
-      'Find cigarette making equipment to suit your production requirements, including established machine platforms and rebuilt options.',
-    cta: { href: '/machines/making-machines', text: 'LEARN MORE' },
+      'Explore our cigarette-making line: Mark 8-D with Max-15, and Mark 9.5 systems with Max-S or Max-70.',
+    cta: { href: '/machines/making-machines', text: 'View All Machines' },
     features: [
       {
-        text: 'Molins MK8, MK9 and MK95 makers, with matching parts and format options.',
+        title: 'MARK 8-D WITH MAX-15',
+        text: 'Up to 2,800 cigarettes per minute, with 1117Max multi-roll infeed.',
         icons: ['/icons/industry/gears.webp'],
       },
       {
-        text: 'Hauni Protos 70, 80 and 90 maker platforms, supported with compatible parts.',
+        title: 'MARK 9.5 WITH MAX-S',
+        text: 'Up to 4,000 cigarettes per minute with Max-S filter assembly and automatic tray filling.',
         icons: ['/icons/industry/gears.webp'],
       },
       {
-        text: 'Rebuilding and format conversion to adapt established machines to new requirements.',
-        icons: ['/icons/industry/format-gauge.webp'],
+        title: 'MARK 9.5 WITH MAX-70',
+        text: 'Up to 5,000 cigarettes per minute with Max-70 filter assembly and automatic tray filling.',
+        icons: ['/icons/industry/gears.webp'],
       },
     ],
   },
   {
     id: 'packing',
     title: 'PACKING MACHINES',
-    image: '/mti-ow25-1-over-wrapper-reflection.png',
-    imageAlt: 'MTI-OW25 cigarette overwrapping machine',
+    image: '/nhlp3-floor-reflection.png',
+    imageAlt: 'Microtex MTI-HLP250 hinge-lid packer',
     description:
       'From primary wrapping and overwrapping to end-of-line case packing, explore equipment for the different stages of your cigarette packaging line.',
-    cta: { href: '/machines/packing-machines', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines', text: 'View All Machines' },
     features: [
       {
         text: 'Tear tapes in a range of widths, with or without printed messages.',
@@ -80,7 +83,7 @@ const machineGroups: MachineGroup[] = [
       'Refurbished with upgraded motors and electronics after a full strip-down and rebuild.',
       'Configured with an integrated tow opener and automatic tray filler system.',
     ],
-    cta: { href: '/machines/filter-machines', text: 'VIEW FILTER MACHINES' },
+    cta: { href: '/machines/filter-machines', text: 'View All Machines' },
     compactFeatures: true,
     features: [
       {
@@ -112,7 +115,7 @@ const machineGroups: MachineGroup[] = [
       'Find dust collectors, dry claw vacuum pumps and air compressor packages with dryers.',
       'Browse shrink tunnels, cigarette and filter trays, and mobile trolley racks.',
     ],
-    cta: { href: '/machines/utilities-accessories', text: 'EXPLORE UTILITIES & ACCESSORIES' },
+    cta: { href: '/machines/utilities-accessories', text: 'View All Utilities/Accessories' },
     compactFeatures: true,
     features: [
       {

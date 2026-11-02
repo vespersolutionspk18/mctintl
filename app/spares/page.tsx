@@ -32,7 +32,15 @@ export default function SparePartsPage() {
     <>
       <Header />
       <main>
-        <Hero title="SPARE PARTS" imageAlt="Cigarette making and packaging machinery" />
+        <Hero
+          title="SPARE PARTS"
+          imageSrc="/sparepartshero.png"
+          imageAlt="Cigarette machinery spare parts"
+          imageOnRight
+          imageWidth={2058}
+          imageHeight={764}
+          textColor="gray"
+        />
         <MachineStack groups={sparePartGroups} />
         <SparePartsCTA />
       </main>

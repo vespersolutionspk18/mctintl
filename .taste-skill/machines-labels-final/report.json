@@ -1,0 +1,1300 @@
+{
+ "url": "http://127.0.0.1:3000/machines",
+ "at": "2026-11-02T13:10:23.826Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.12,
+    0.34,
+    0.31,
+    0.31,
+    0.33,
+    0.59,
+    0.79
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5558,
+     "screens": 6.2,
+     "words": 467,
+     "img": 23,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fhero3.webp&w=1920&q=75",
+      "image?url=%2Fmk8da.webp&w=640&q=75",
+      "image?url=%2Fhlp2a.webp&w=640&q=75",
+      "image?url=%2Fkdf2-filter-maker-cutout.png&w=640&",
+      "image?url=%2Freclaimer2-floor-reflection.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TOBACCO MACHINES",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 48,
+     "vw": 3.3,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.017,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.91,
+     "top": 127,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TOBACCO MACHINES",
+     "words": 2,
+     "lines": 1,
+     "size": 48,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "TOBACCO MACHINES",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.017,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 127,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "MAKING MACHINES",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1021,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PACKING MACHINES",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1921,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "FILTER MACHINES",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 2821,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "UTILITIES & ACCESSORIES",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 3721,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "READY TO UPGRADE YOUR LINE?",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4773,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.85,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.15,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      36,
+      48
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": -0.044,
+      "contrast": 14.7
+     },
+     "measureChars": 139,
+     "max": {
+      "size": 48,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "text": "TOBACCO MACHINES"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.12,
+     "centerShare": 0,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 981,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 5201,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101828",
+       "share": 0.53
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.26
+      },
+      {
+       "color": "#1e2939",
+       "share": 0.11
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c10007",
+      "hsl": {
+       "h": 358,
+       "s": 1,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 6,
+     "inHero": 1,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "CONTACT US"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 1248px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 1106
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 2006
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 2989
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 3890
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.83
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 66,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5558,
+    "margins": {
+     "left": 80,
+     "right": 96
+    },
+    "sections": [
+     {
+      "sel": "div.relative.w-full",
+      "tag": "div",
+      "top": 66,
+      "height": 748,
+      "words": 4,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "TOBACCO MACHINES",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 64,
+      "right": 928,
+      "textLeft": 64,
+      "textRight": 928,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.bg-white.px-4",
+      "tag": "div",
+      "top": 814,
+      "height": 168,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 96,
+      "right": 115,
+      "textLeft": 96,
+      "textRight": 115,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.machine-stack.font-stylish",
+      "tag": "div",
+      "top": 981,
+      "height": 3600,
+      "words": 323,
+      "media": 4,
+      "middle": 64,
+      "heading": {
+       "text": "MAKING MACHINES",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 100,
+      "textLeft": 96,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-8",
+      "tag": "div",
+      "top": 4581,
+      "height": 620,
+      "words": 29,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 96,
+      "textLeft": 272,
+      "textRight": 519,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 5201,
+      "height": 357,
+      "words": 86,
+      "media": 0,
+      "middle": 131,
+      "heading": null,
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1564,
+      "height": 356
+     },
+     {
+      "top": 2464,
+      "height": 356
+     },
+     {
+      "top": 3364,
+      "height": 356
+     },
+     {
+      "top": 4264,
+      "height": 412
+     }
+    ],
+    "h1s": [
+     {
+      "text": "TOBACCO MACHINES",
+      "size": 48,
+      "top": 127,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 96,
+      "n": 5
+     },
+     {
+      "x": 656,
+      "n": 5
+     },
+     {
+      "x": 901,
+      "n": 5
+     },
+     {
+      "x": 640,
+      "n": 4
+     },
+     {
+      "x": 1147,
+      "n": 4
+     },
+     {
+      "x": 272,
+      "n": 2
+     },
+     {
+      "x": 64,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 26,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": {
+     "x": 0,
+     "y": 840,
+     "w": 60,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.53,
+    0.68,
+    0.76,
+    0.71,
+    0.68,
+    0.68,
+    0.91,
+    1
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6563,
+     "screens": 7.8,
+     "words": 451,
+     "img": 23,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 5,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 6,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fhero3.webp&w=640&q=75",
+      "image?url=%2Fmk8da.webp&w=640&q=75",
+      "image?url=%2Fhlp2a.webp&w=640&q=75",
+      "image?url=%2Fkdf2-filter-maker-cutout.png&w=640&",
+      "image?url=%2Freclaimer2-floor-reflection.png&w=6"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "TOBACCO MACHINES",
+     "words": 2,
+     "chars": 16,
+     "lines": 1,
+     "size": 24,
+     "vw": 6.2,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.033,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 106,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "TOBACCO MACHINES",
+     "words": 2,
+     "lines": 1,
+     "size": 24,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "TOBACCO MACHINES",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.033,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 106,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "MAKING MACHINES",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 560,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "PACKING MACHINES",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1684,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "FILTER MACHINES",
+      "words": 2,
+      "chars": 15,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 2831,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "UTILITIES & ACCESSORIES",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 500,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 3924,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "READY TO UPGRADE YOUR LINE?",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5034,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.87,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.13,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": -0.05,
+      "contrast": 14.7
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "text": "READY TO UPGRADE YOUR LINE?"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.1,
+     "centerShare": 0,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 520,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 5404,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#101828",
+       "share": 0.54
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.25
+      },
+      {
+       "color": "#1e2939",
+       "share": 0.11
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.05
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#c10007",
+      "hsl": {
+       "h": 358,
+       "s": 1,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 0,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 342px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 6,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 938
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 2084
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 3376
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": false,
+       "top": 4446
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     },
+     {
+      "type": "img",
+      "ratio": 0.23
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6563,
+    "margins": {
+     "left": 16,
+     "right": 19
+    },
+    "sections": [
+     {
+      "sel": "div.relative.w-full",
+      "tag": "div",
+      "top": 72,
+      "height": 202,
+      "words": 4,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "TOBACCO MACHINES",
+       "size": 24,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 156,
+      "textLeft": 16,
+      "textRight": 156,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.bg-white.px-4",
+      "tag": "div",
+      "top": 274,
+      "height": 246,
+      "words": 54,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.machine-stack.font-stylish",
+      "tag": "div",
+      "top": 520,
+      "height": 4434,
+      "words": 323,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "MAKING MACHINES",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-8",
+      "tag": "div",
+      "top": 4954,
+      "height": 450,
+      "words": 29,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 40,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 5404,
+      "height": 1159,
+      "words": 86,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 78,
+      "textLeft": 24,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "TOBACCO MACHINES",
+      "size": 24,
+      "top": 106,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 36,
+      "n": 16
+     },
+     {
+      "x": 16,
+      "n": 10
+     }
+    ],
+    "leftBlocks": 26,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.border-t.border-gray-300 1248px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "4 row(s) of identical cards each topped with a small icon (3, 3, 3, 3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "measure",
+   "width": 1440,
+   "message": "Longest paragraph runs about 139 characters per line.",
+   "fix": "Cap paragraphs at 45–75 characters (max-width: 60ch)."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "3 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 80px on the left, 96px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 1440,
+   "message": "A 412px stretch at 4264px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"TOBACCO MACHINES\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 7 different lines (96px, 656px, 901px, 640px, 1147px, 272px, 64px); the three most used hold only 58% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 390,
+   "message": "No visible button in the first phone screen.",
+   "fix": "On a phone the first screen still holds the headline, the supporting sentence and the action; move navigation into one row or a menu so it does not push them down."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 390,
+   "message": "The h1 is 24px (\"TOBACCO MACHINES\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/machines-labels-final/desktop-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/machines-labels-final/desktop-page-01.jpg",
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/machines-labels-final/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/machines-labels-final/mobile-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/machines-labels-final/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

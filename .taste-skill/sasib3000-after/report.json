@@ -1,0 +1,1514 @@
+{
+ "url": "http://127.0.0.1:3000/machines/packing-machines/sasib-3000-soft-packer",
+ "at": "2026-11-02T13:21:26.438Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.57,
+    0.38,
+    0.74
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2359,
+     "screens": 2.6,
+     "words": 315,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fsasib3000-floor-reflection.png&w=82",
+      "image?url=%2Fhlp250.webp&w=640&q=75",
+      "image?url=%2Fpacketa.webp&w=640&q=75",
+      "image?url=%2Fmti-ow25-1-over-wrapper-reflection."
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SASIB 3000 SOFT PACKER",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 36,
+     "vw": 2.5,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.39,
+     "top": 98,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SASIB 3000 SOFT PACKER",
+     "words": 4,
+     "lines": 1,
+     "size": 36,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "SASIB 3000 SOFT PACKER",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 98,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.79,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.21,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      36
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.25,
+      "weight": 400,
+      "tracking": -0.05,
+      "contrast": null
+     },
+     "measureChars": 63,
+     "max": {
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "text": "Sasib 3000 Soft Packer"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.14,
+     "centerShare": 0.03,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 66,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 2002,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1e2939",
+       "share": 0.51
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.36
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.07
+      },
+      {
+       "color": "#364153",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#c10007",
+      "hsl": {
+       "h": 358,
+       "s": 1,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "CONTACT US"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 1248px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.35
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 66,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2359,
+    "margins": {
+     "left": 64,
+     "right": 92
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 66,
+      "height": 576,
+      "words": 88,
+      "media": 1,
+      "middle": 45,
+      "heading": {
+       "text": "Sasib 3000 Soft Packer",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 64,
+      "right": 0,
+      "textLeft": 64,
+      "textRight": 823,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 642,
+      "height": 473,
+      "words": 93,
+      "media": 0,
+      "middle": 226,
+      "heading": {
+       "text": "TECHNICAL DATA",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 104,
+      "textLeft": 96,
+      "textRight": 104,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-4",
+      "tag": "section",
+      "top": 1114,
+      "height": 593,
+      "words": 10,
+      "media": 3,
+      "middle": 16,
+      "heading": {
+       "text": "RELATED MACHINES",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 203,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-6",
+      "tag": "div",
+      "top": 1707,
+      "height": 295,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 272,
+      "textRight": 556,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 2002,
+      "height": 357,
+      "words": 86,
+      "media": 0,
+      "middle": 131,
+      "heading": null,
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SASIB 3000 SOFT PACKER",
+      "size": 36,
+      "top": 98,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 64,
+      "n": 3
+     },
+     {
+      "x": 96,
+      "n": 2
+     },
+     {
+      "x": 272,
+      "n": 2
+     },
+     {
+      "x": 740,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.12,
+    "voidBox": {
+     "x": 0,
+     "y": 420,
+     "w": 660,
+     "h": 240
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.59,
+    0.44,
+    0.98
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 3043,
+     "screens": 3,
+     "words": 299,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fsasib3000-floor-reflection.png&w=64",
+      "image?url=%2Fhlp250.webp&w=256&q=75",
+      "image?url=%2Fpacketa.webp&w=256&q=75",
+      "image?url=%2Fmti-ow25-1-over-wrapper-reflection."
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SASIB 3000 SOFT PACKER",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.94,
+     "top": 92,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SASIB 3000 SOFT PACKER",
+     "words": 4,
+     "lines": 1,
+     "size": 36,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "SASIB 3000 SOFT PACKER",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 92,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 1,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.82,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.18,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      36
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.25,
+      "weight": 400,
+      "tracking": -0.05,
+      "contrast": 14.7
+     },
+     "measureChars": 80,
+     "max": {
+      "size": 36,
+      "vw": 4.7,
+      "font": "Space Grotesk",
+      "text": "Sasib 3000 Soft Packer"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.11,
+     "centerShare": 0.03,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 72,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 2254,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1e2939",
+       "share": 0.53
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.35
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.07
+      },
+      {
+       "color": "#364153",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f3f4f6",
+      "hsl": {
+       "h": 220,
+       "s": 0.14,
+       "l": 0.96
+      },
+      "fg": "#000000"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 720px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.28
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 3043,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 72,
+      "height": 677,
+      "words": 88,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Sasib 3000 Soft Packer",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 24,
+      "right": 44,
+      "textLeft": 24,
+      "textRight": 44,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 749,
+      "height": 659,
+      "words": 93,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "TECHNICAL DATA",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 45,
+      "textLeft": 40,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-4",
+      "tag": "section",
+      "top": 1408,
+      "height": 551,
+      "words": 10,
+      "media": 3,
+      "middle": 16,
+      "heading": {
+       "text": "RELATED MACHINES",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-6",
+      "tag": "div",
+      "top": 1959,
+      "height": 295,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 96,
+      "textRight": 124,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 2254,
+      "height": 789,
+      "words": 86,
+      "media": 0,
+      "middle": 96,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SASIB 3000 SOFT PACKER",
+      "size": 36,
+      "top": 92,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 4
+     },
+     {
+      "x": 24,
+      "n": 3
+     },
+     {
+      "x": 96,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.68,
+    0.53,
+    0.73,
+    0.97,
+    1
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3974,
+     "screens": 4.7,
+     "words": 299,
+     "img": 11,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 5,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fsasib3000-floor-reflection.png&w=64",
+      "image?url=%2Fhlp250.webp&w=640&q=75",
+      "image?url=%2Fpacketa.webp&w=640&q=75",
+      "image?url=%2Fmti-ow25-1-over-wrapper-reflection."
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "SASIB 3000 SOFT PACKER",
+     "words": 4,
+     "chars": 22,
+     "lines": 1,
+     "size": 30,
+     "vw": 7.7,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.05,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 92,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "SASIB 3000 SOFT PACKER",
+     "words": 4,
+     "lines": 1,
+     "size": 30,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "SASIB 3000 SOFT PACKER",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 92,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "TECHNICAL DATA",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 880,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "BASIC INFO",
+      "words": 2,
+      "chars": 10,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1094,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "FEATURES",
+      "words": 1,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1291,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "RELATED MACHINES",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1638,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "READY TO UPGRADE YOUR LINE?",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 2512,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 6,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.82,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.18,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": -0.05,
+      "contrast": 14.7
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "text": "Sasib 3000 Soft Packer"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.11,
+     "centerShare": 0.03,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 72,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 2815,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1e2939",
+       "share": 0.53
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.35
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.07
+      },
+      {
+       "color": "#364153",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f3f4f6",
+      "hsl": {
+       "h": 220,
+       "s": 0.14,
+       "l": 0.96
+      },
+      "fg": "#000000"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 1,
+     "inHero": 0,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 342px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.27
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "dm sans fallback",
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3974,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.relative.w-full",
+      "tag": "section",
+      "top": 72,
+      "height": 776,
+      "words": 88,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Sasib 3000 Soft Packer",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 36,
+      "textLeft": 16,
+      "textRight": 36,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 848,
+      "height": 742,
+      "words": 93,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "TECHNICAL DATA",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 29,
+      "textLeft": 24,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-4",
+      "tag": "section",
+      "top": 1590,
+      "height": 858,
+      "words": 10,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "RELATED MACHINES",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 90,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-6",
+      "tag": "div",
+      "top": 2448,
+      "height": 368,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 40,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 2815,
+      "height": 1159,
+      "words": 86,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 78,
+      "textLeft": 24,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "SASIB 3000 SOFT PACKER",
+      "size": 30,
+      "top": 92,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 7
+     },
+     {
+      "x": 40,
+      "n": 2
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.border-t.border-gray-300 1248px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "3 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 64px on the left, 92px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 768,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/sasib3000-after/desktop-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/sasib3000-after/desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/sasib3000-after/tablet-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/sasib3000-after/tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/sasib3000-after/mobile-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/sasib3000-after/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

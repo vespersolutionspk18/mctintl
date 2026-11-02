@@ -67,15 +67,21 @@ const machineCategories: MachineCategory[] = [
     cards: [
       {
         title: 'HINGE LID PACKER MTI-HLP250',
-        image: '/hlp250.webp',
+        image: '/nhlp3-floor-reflection.png',
         imageAlt: 'Microtex MTI-HLP250 hinge-lid packer',
         href: '/machines/packing-machines/hlp-250',
       },
       {
         title: 'HINGE LID PACKER MTI-HLP2',
-        image: '/hlp2a.webp',
+        image: '/hlp250.webp',
         imageAlt: 'Microtex MTI-HLP2 hinge-lid packer',
         href: '/machines/packing-machines/hlp-2',
+      },
+      {
+        title: 'SASIB 3000 SOFT PACKER',
+        image: '/sasib3000-floor-reflection.png',
+        imageAlt: 'Sasib S-3000 soft cigarette packing machine',
+        href: '/machines/packing-machines/sasib-3000-soft-packer',
       },
       {
         title: 'PACKET WRAPPER',
@@ -91,7 +97,7 @@ const machineCategories: MachineCategory[] = [
       },
       {
         title: 'HIGH-SPEED BOXER MACHINE',
-        image: '/boxer machine.webp',
+        image: '/nboxer-floor-reflection.webp',
         imageAlt: 'Microtex high-speed boxer machine',
         href: '/machines/packing-machines/high-speed-boxer',
       },
@@ -154,7 +160,7 @@ const machineCategories: MachineCategory[] = [
       },
       {
         title: 'VACUUM PUMPS',
-        image: '/vacuumpump1-floor-reflection.png',
+        image: '/vacuumpump2-floor-reflection.png',
         imageAlt: 'Industrial dry claw vacuum pump',
         href: '/machines/utilities-accessories/vacuum-pumps',
       },
@@ -352,7 +358,7 @@ const Header = () => {
         <nav
           id="main-navigation"
           aria-label="Main navigation"
-          className="hidden order-2 w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 text-gray-800 sm:gap-x-4 lg:flex lg:w-auto lg:flex-nowrap 2xl:gap-x-5"
+          className="hidden order-2 w-full flex-wrap items-center justify-center gap-x-3 gap-y-2 text-gray-600 sm:gap-x-4 lg:flex lg:w-auto lg:flex-nowrap 2xl:gap-x-5"
         >
           <Link
             href="/machines"
@@ -362,7 +368,7 @@ const Header = () => {
             onMouseEnter={(event) => openHoverMenu('machines', event.currentTarget)}
             onFocus={(event) => openHoverMenu('machines', event.currentTarget)}
             onClick={closeMenu}
-            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
+            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-gray-600 transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
           >MACHINES</Link>
           <Link
             href="/spares"
@@ -372,7 +378,7 @@ const Header = () => {
             onMouseEnter={(event) => openHoverMenu('spares', event.currentTarget)}
             onFocus={(event) => openHoverMenu('spares', event.currentTarget)}
             onClick={closeMenu}
-            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
+            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-gray-600 transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
           >SPARE PARTS</Link>
           <Link
             href="/services"
@@ -382,10 +388,10 @@ const Header = () => {
             onMouseEnter={(event) => openHoverMenu('services', event.currentTarget)}
             onFocus={(event) => openHoverMenu('services', event.currentTarget)}
             onClick={closeMenu}
-            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
+            className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-gray-600 transition-colors hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700 sm:text-base lg:text-lg"
           >SERVICES</Link>
-          <Link href="/about-us" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">ABOUT US</Link>
-          <Link href="/news" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-black transition-colors hover:text-red-700 sm:text-base lg:text-lg">NEWS &amp; EVENTS</Link>
+          <Link href="/about-us" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-gray-600 transition-colors hover:text-red-700 sm:text-base lg:text-lg">ABOUT US</Link>
+          <Link href="/news" onClick={closeMenu} className="whitespace-nowrap text-sm font-medium leading-tight tracking-tighter text-gray-600 transition-colors hover:text-red-700 sm:text-base lg:text-lg">NEWS &amp; EVENTS</Link>
         </nav>
 
         <div className="order-3 ml-auto hidden shrink-0 items-center gap-2 sm:gap-3 lg:ml-0 lg:flex">
@@ -405,33 +411,33 @@ const Header = () => {
         <nav
           id="mobile-navigation"
           aria-label="Mobile navigation"
-          className={`${mobileMenuOpen ? 'flex' : 'hidden'} order-4 max-h-[calc(100dvh-5rem)] w-full flex-col overflow-y-auto border-t border-gray-200 py-2 text-gray-800 lg:hidden`}
+          className={`${mobileMenuOpen ? 'flex' : 'hidden'} order-4 max-h-[calc(100dvh-5rem)] w-full flex-col overflow-y-auto border-t border-gray-200 py-2 text-gray-600 lg:hidden`}
         >
           <div className="w-full">
             <Link
               href="/machines"
               onClick={closeMenu}
-              className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+              className="block py-3 text-sm font-medium leading-tight tracking-tighter text-gray-600 hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
             >
               MACHINES
             </Link>
             <Link
               href="/services"
               onClick={closeMenu}
-              className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+              className="block py-3 text-sm font-medium leading-tight tracking-tighter text-gray-600 hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
             >
               SERVICES
             </Link>
             <Link
               href="/spares"
               onClick={closeMenu}
-              className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
+              className="block py-3 text-sm font-medium leading-tight tracking-tighter text-gray-600 hover:text-red-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-700"
             >
               SPARE PARTS
             </Link>
 
-            <Link href="/about-us" onClick={closeMenu} className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700">ABOUT US</Link>
-            <Link href="/news" onClick={closeMenu} className="block py-3 text-sm font-medium leading-tight tracking-tighter text-black hover:text-red-700">NEWS &amp; EVENTS</Link>
+            <Link href="/about-us" onClick={closeMenu} className="block py-3 text-sm font-medium leading-tight tracking-tighter text-gray-600 hover:text-red-700">ABOUT US</Link>
+            <Link href="/news" onClick={closeMenu} className="block py-3 text-sm font-medium leading-tight tracking-tighter text-gray-600 hover:text-red-700">NEWS &amp; EVENTS</Link>
           </div>
 
           <div className="mt-2 flex w-full items-center justify-between gap-3 border-t border-gray-200 pt-3">
@@ -463,7 +469,7 @@ const Header = () => {
                 onClick={closeMenu}
                 className="text-sm font-semibold text-red-700 underline underline-offset-4 hover:text-red-800"
               >
-                {activeCategory.id === 'utilities' ? 'ALL UTILITIES & ACCESSORIES' : 'ALL MACHINES'}
+                {activeCategory.id === 'utilities' ? 'View All Utilities/Accessories' : 'View All Machines'}
               </Link>
             </div>
 

@@ -7,19 +7,19 @@ export type PackingMachineProduct = MachineProductTemplateProps & {
 
 const related = {
   hlp250: [
-    { title: 'HINGE LID PACKER MTI-HLP2', image: '/hlp2a.webp', imageAlt: 'Microtex MTI-HLP2 hinge-lid packer', href: '/machines/packing-machines/hlp-2' },
+    { title: 'HINGE LID PACKER MTI-HLP2', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP2 hinge-lid packer', href: '/machines/packing-machines/hlp-2' },
     { title: 'PACKET WRAPPER', image: '/packeta.webp', imageAlt: 'Microtex packet wrapper', href: '/machines/packing-machines/packet-wrapper' },
     { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
   ],
   hlp2: [
-    { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
+    { title: 'HINGE LID PACKER MTI-HLP250', image: '/nhlp3-floor-reflection.png', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
     { title: 'PACKET WRAPPER', image: '/packeta.webp', imageAlt: 'Microtex packet wrapper', href: '/machines/packing-machines/packet-wrapper' },
     { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
   ],
   packetWrapper: [
-    { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
+    { title: 'HINGE LID PACKER MTI-HLP250', image: '/nhlp3-floor-reflection.png', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
     { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
-    { title: 'HIGH-SPEED BOXER MACHINE', image: '/boxer machine.webp', imageAlt: 'Microtex high-speed boxer machine', href: '/machines/packing-machines/high-speed-boxer' },
+    { title: 'HIGH-SPEED BOXER MACHINE', image: '/nboxer-floor-reflection.webp', imageAlt: 'Microtex high-speed boxer machine', href: '/machines/packing-machines/high-speed-boxer' },
   ],
   boxer: [
     { title: 'PACKET WRAPPER', image: '/packeta.webp', imageAlt: 'Microtex packet wrapper', href: '/machines/packing-machines/packet-wrapper' },
@@ -27,14 +27,14 @@ const related = {
     { title: 'CASE PACKER MACHINE', image: '/mti-cp06-1-case-packer-cutout.webp', imageAlt: 'Microtex case packer', href: '/machines/packing-machines/case-packer' },
   ],
   stamper: [
-    { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
+    { title: 'HINGE LID PACKER MTI-HLP250', image: '/nhlp3-floor-reflection.png', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
     { title: 'PACKET WRAPPER', image: '/packeta.webp', imageAlt: 'Microtex packet wrapper', href: '/machines/packing-machines/packet-wrapper' },
     { title: 'CASE PACKER MACHINE', image: '/mti-cp06-1-case-packer-cutout.webp', imageAlt: 'Microtex case packer', href: '/machines/packing-machines/case-packer' },
   ],
   casePacker: [
-    { title: 'HIGH-SPEED BOXER MACHINE', image: '/boxer machine.webp', imageAlt: 'Microtex high-speed boxer machine', href: '/machines/packing-machines/high-speed-boxer' },
+    { title: 'HIGH-SPEED BOXER MACHINE', image: '/nboxer-floor-reflection.webp', imageAlt: 'Microtex high-speed boxer machine', href: '/machines/packing-machines/high-speed-boxer' },
     { title: 'OVERWRAPPER MACHINE', image: '/mti-ow25-1-over-wrapper-reflection.png', imageAlt: 'Microtex MTI-OW25-1 overwrapper', href: '/machines/packing-machines/over-wrapper-mti-ow25-1' },
-    { title: 'HINGE LID PACKER MTI-HLP250', image: '/hlp250.webp', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
+    { title: 'HINGE LID PACKER MTI-HLP250', image: '/nhlp3-floor-reflection.png', imageAlt: 'Microtex MTI-HLP250 hinge-lid packer', href: '/machines/packing-machines/hlp-250' },
   ],
 } satisfies Record<string, RelatedMachine[]>
 
@@ -43,7 +43,7 @@ export const packingMachineProducts: PackingMachineProduct[] = [
     slug: 'hlp-250',
     title: 'Hinge Lid Packer MTI-HLP250',
     metaDescription: 'MTI-HLP250 hinge-lid cigarette packer with up to 220 packs per minute, Siemens controls, format flexibility, and online quality inspection.',
-    heroImage: '/hlp250.webp',
+    heroImage: '/nhlp3-floor-reflection.png',
     heroImageAlt: 'Microtex MTI-HLP250 hinge-lid cigarette packer',
     capabilities: [
       { image: '/machines/product-features/hero-capabilities/hlp-250-output-rate.webp', text: 'Up to 220 packs per minute' },
@@ -72,14 +72,17 @@ export const packingMachineProducts: PackingMachineProduct[] = [
       'Automatic blank feeding station reduces manual labour and simplifies operation',
       'Online loose-end and filter inspection, including pack ejection',
     ],
-    gallery: [{ src: '/hlp250a.webp', alt: 'Alternate view of the MTI-HLP250 hinge-lid packer' }],
+    gallery: [
+      { src: '/nhlp1-floor-reflection.png', alt: 'Alternate three-quarter view of the MTI-HLP250 hinge-lid packer' },
+      { src: '/nhlp2-floor-reflection.png', alt: 'Front view of the MTI-HLP250 hinge-lid packer' },
+    ],
     relatedMachines: related.hlp250,
   },
   {
     slug: 'hlp-2',
     title: 'Hinge Lid Packer MTI-HLP2',
     metaDescription: 'MTI-HLP2 cigarette packing line with output up to 180 packs per minute, a double-plunger mechanism, broad format support, and PLC control.',
-    heroImage: '/hlp2a.webp',
+    heroImage: '/hlp250.webp',
     heroImageAlt: 'Microtex MTI-HLP2 hinge-lid cigarette packer',
     capabilities: [
       { image: '/machines/product-features/hero-capabilities/hlp-2-output-rate.webp', text: 'Up to 180 packs per minute' },
@@ -107,7 +110,7 @@ export const packingMachineProducts: PackingMachineProduct[] = [
       'PLC control system for fully automated packing operations',
       'Adaptable pack styles include round corner, bevel edge, D-type, and square packets',
     ],
-    gallery: [{ src: '/hlp2b.webp', alt: 'Alternate view of the MTI-HLP2 hinge-lid packer' }],
+    gallery: [{ src: '/hlp250a.webp', alt: 'Alternate view of the MTI-HLP2 hinge-lid packer' }],
     relatedMachines: related.hlp2,
   },
   {
@@ -143,14 +146,53 @@ export const packingMachineProducts: PackingMachineProduct[] = [
       'Automatic packet feed system',
       'Stable production process for different film properties',
     ],
-    gallery: [],
+    gallery: [{ src: '/packetwrappernew-floor-reflection.webp', alt: 'Alternate view of the Microtex packet wrapper on a reflective white floor' }],
     relatedMachines: related.packetWrapper,
+  },
+  {
+    slug: 'sasib-3000-soft-packer',
+    title: 'Sasib 3000 Soft Packer',
+    metaDescription: 'Sasib S-3000 soft pack cigarette packing machine with 150 packets per minute productivity, 84 mm and 100 mm pack sizes, and automatic Alufoil and label wrapping.',
+    heroImage: '/sasib3000-floor-reflection.png',
+    heroImageAlt: 'Sasib S-3000 soft cigarette packing machine on a white studio floor',
+    capabilities: [
+      { image: '/icons/industry/output-speed.webp', text: '150 packets per minute' },
+      { image: '/icons/industry/format-gauge.webp', text: '84 mm and 100 mm packs' },
+      { image: '/icons/industry/film-roll.webp', text: 'Alufoil and label wrapping' },
+      { image: '/icons/industry/gears.webp', text: 'Full-automatic operation' },
+      { image: '/icons/industry/power-gauge.webp', text: '6 kW power' },
+    ],
+    description: 'The Sasib 3000 Soft Packer is a fully automatic cigarette packing machine for 84 mm and 100 mm packs. Rollers feed flexible wrapping around the product arbor, and a sealing mechanism closes the soft pack.',
+    overview: 'It handles Alufoil and label wrapping at 150 packets per minute. Its control system supports quick adjustments and straightforward maintenance as production demands change.',
+    basicInfo: [
+      { label: 'Brand', value: 'Sasib' },
+      { label: 'Model No.', value: 'S-3000' },
+      { label: 'Type', value: 'Full-Automatic' },
+      { label: 'Pack Sizes', value: '84 mm and 100 mm' },
+      { label: 'Wrapping Materials', value: 'Alufoil and label wrapping' },
+    ],
+    technicalData: [
+      { label: 'Productivity', value: '150 packets per minute' },
+      { label: 'Power', value: '6 kW' },
+      { label: 'Dimensions (L × W × H)', value: '1828 × 1828 × 2286 mm' },
+      { label: 'Voltage', value: '220 V / 380 V' },
+      { label: 'Weight', value: '3 tons' },
+    ],
+    features: [
+      'Accommodates 84 mm and 100 mm cigarette packs',
+      'Rollers feed flexible wrapping around the product arbor',
+      'Sealing mechanism closes Alufoil and label wrapping',
+      'Full-automatic operation supports high-volume production',
+      'Control system supports quick adjustments and easy maintenance',
+    ],
+    gallery: [],
+    relatedMachines: related.hlp2,
   },
   {
     slug: 'high-speed-boxer',
     title: 'High-Speed Boxer Machine',
     metaDescription: 'High-speed boxer with output up to 30 boxes per minute, cold-glue sealing, adjustable collation, and PLC control.',
-    heroImage: '/boxer machine.webp',
+    heroImage: '/nboxer-floor-reflection.webp',
     heroImageAlt: 'Microtex high-speed cigarette boxer machine',
     capabilities: [
       { image: '/machines/product-features/hero-capabilities/high-speed-boxer-output-rate.webp', text: 'Up to 30 boxes per minute' },
@@ -210,7 +252,7 @@ export const packingMachineProducts: PackingMachineProduct[] = [
       'High operational efficiency and low wastage',
       'Easy to operate and maintain',
     ],
-    gallery: [],
+    gallery: [{ src: '/nstamper3-floor-reflection.webp', alt: 'Studio view with floor reflection of the cigarette packet stamping machine' }],
     relatedMachines: related.stamper,
   },
   {

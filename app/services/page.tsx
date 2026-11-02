@@ -16,7 +16,14 @@ export default function ServicesPage() {
     <>
       <Header />
       <main>
-        <Hero title="SERVICES" imageAlt="Microtex manufacturing and engineering services" />
+        <Hero
+          title="SERVICES"
+          imageSrc="/servicesherofinalblue.png"
+          imageAlt="Cigarette production machinery"
+          textColor="white"
+          darkOverlay
+          darkOverlayOpacity={0.3}
+        />
         <ServicesStack />
         <ServicesCTA />
       </main>

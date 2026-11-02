@@ -26,15 +26,15 @@ export type MachineProductTemplateProps = {
 function DataTable({ rows, label }: { rows: { label: string; value: string }[]; label: string }) {
   return (
     <div className="overflow-x-auto">
-      <table className="w-full border-collapse border border-gray-300 text-left font-sans text-base leading-tight tracking-tighter sm:text-lg">
+      <table className="w-full border-collapse border border-gray-300 text-left font-sans text-sm leading-tight tracking-tighter sm:text-base">
         <caption className="sr-only">{label}</caption>
         <tbody>
           {rows.map((row) => (
             <tr key={row.label}>
-              <th scope="row" className="w-[42%] border border-gray-300 bg-gray-50 px-3 py-2 align-top font-semibold text-gray-800">
+              <th scope="row" className="w-[42%] border border-gray-300 bg-gray-50 px-2 py-1 align-top font-semibold text-gray-800">
                 {row.label}
               </th>
-              <td className="border border-gray-300 px-3 py-2 text-gray-800">{row.value}</td>
+              <td className="border border-gray-300 px-2 py-1 text-gray-800">{row.value}</td>
             </tr>
           ))}
         </tbody>

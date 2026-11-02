@@ -16,7 +16,7 @@ const makingMachines: MachineGroup[] = [
     title: 'MARK 8-D WITH MAX-15',
     image: '/mk8da.webp',
     imageAlt: 'Mark 8-D cigarette making machine with Max-15',
-    cta: { href: '/machines/making-machines/mark-8-d-max-15', text: 'LEARN MORE' },
+    cta: { href: '/machines/making-machines/mark-8-d-max-15', text: 'View Machine Details' },
     showCta: true,
     description: 'A Mark 8-D maker configured with a Max-15 and 1117Max multi-roll infeed.',
     compactFeatures: true,
@@ -38,7 +38,7 @@ const makingMachines: MachineGroup[] = [
     title: 'MARK 9.5 WITH MAX-S',
     image: '/mk9.5a.webp',
     imageAlt: 'Mark 9.5 maker with Max-S filter assembler and automatic tray filler',
-    cta: { href: '/machines/making-machines/mark-9-5-max-s', text: 'LEARN MORE' },
+    cta: { href: '/machines/making-machines/mark-9-5-max-s', text: 'View Machine Details' },
     showCta: true,
     description: 'Mark 9.5 maker paired with a Max-S filter assembler and automatic tray filler.',
     compactFeatures: true,
@@ -58,7 +58,7 @@ const makingMachines: MachineGroup[] = [
     title: 'MARK 9.5 WITH MAX-70',
     image: '/9.5maxa.webp',
     imageAlt: 'Mark 9.5 maker with Max-70 filter assembler and automatic tray filler',
-    cta: { href: '/machines/making-machines/mark-9-5-max-70', text: 'LEARN MORE' },
+    cta: { href: '/machines/making-machines/mark-9-5-max-70', text: 'View Machine Details' },
     showCta: true,
     description: 'Mark 9.5 maker paired with a Max-70 filter assembler and automatic tray filler.',
     compactFeatures: true,
@@ -80,7 +80,7 @@ export default function MakingMachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="MAKING MACHINES" imageSrc="/makers.webp" imageAlt="Cigarette making machinery" subtitle="" />
+        <Hero title="MAKING MACHINES" imageSrc="/makingmachinesherofinal.png" imageAlt="Cigarette making machinery" subtitle="" />
         <MachineStack groups={makingMachines} />
         <CTA />
       </main>

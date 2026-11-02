@@ -71,7 +71,7 @@ export default function OverWrapperProductPage() {
             },
             {
               title: 'HIGH-SPEED BOXER MACHINE',
-              image: '/boxer machine.webp',
+              image: '/nboxer-floor-reflection.webp',
               imageAlt: 'Microtex high-speed cigarette boxer machine',
               href: '/machines/packing-machines/high-speed-boxer',
             },

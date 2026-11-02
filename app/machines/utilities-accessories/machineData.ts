@@ -178,7 +178,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Vacuum Pumps',
     metaDescription:
       'Dry contactless claw vacuum pumps for cigarette-making and packing equipment, with integrated controls and air cooling.',
-    heroImage: '/vacuumpump1-floor-reflection.png',
+    heroImage: '/vacuumpump2-floor-reflection.png',
     heroImageAlt: 'Industrial dry claw vacuum pump in an acoustic enclosure',
     capabilities: [
       { image: '/icons/industry/gears.webp', text: 'Dry contactless claw technology' },
@@ -211,7 +211,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
       'Integrated air cooling avoids a separate water-cooling circuit.',
       'The enclosed cabinet helps damp operating noise and vibration.',
     ],
-    gallery: [{ src: '/vacuumpump2-floor-reflection.png', alt: 'Alternate industrial vacuum pump configuration' }],
+    gallery: [{ src: '/vacuumpump1-floor-reflection.png', alt: 'Alternate industrial vacuum pump configuration' }],
     relatedMachines: [],
   },
   {
@@ -347,7 +347,7 @@ export const utilityAccessoryGroups: MachineGroup[] = utilityAccessoryProducts.m
   details: product.features.slice(0, 3),
   cta: {
     href: `/machines/utilities-accessories/${product.slug}`,
-    text: 'LEARN MORE',
+    text: 'View Utility/Accessory Details',
   },
   compactFeatures: true,
   features: product.capabilities.slice(0, 3).map((capability) => ({

@@ -25,7 +25,7 @@ const filterMachines: MachineGroup[] = [
     ],
     cta: {
       href: '/machines/filter-machines/kdf2-filter-maker',
-      text: 'LEARN MORE',
+      text: 'View Machine Details',
     },
     compactFeatures: true,
     features: [
@@ -53,7 +53,7 @@ export default function FilterMachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="FILTER MACHINES" imageAlt="Cigarette filter rod making machinery" />
+        <Hero title="FILTER MACHINES" imageSrc="/filtermachinesherofinal.png" imageAlt="Cigarette filter rod making machinery" />
         <MachineStack groups={filterMachines} />
         <CTA compact />
       </main>

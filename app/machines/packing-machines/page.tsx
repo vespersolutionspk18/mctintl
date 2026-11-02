@@ -8,16 +8,16 @@ import MachineStack, { type MachineGroup } from '../MachineStack'
 export const metadata: Metadata = {
   title: 'Cigarette Packing Machines | Microtex International',
   description:
-    'Explore Microtex cigarette packing equipment, from hinge-lid packers and packet wrappers to overwrappers, stampers, boxers, and case packers.',
+    'Explore Microtex cigarette packing equipment, from hinge-lid packers and soft packers to packet wrappers, overwrappers, stampers, boxers, and case packers.',
 }
 
 const packingMachines: MachineGroup[] = [
   {
     id: 'hlp-250',
     title: 'HINGE LID PACKER MTI-HLP250',
-    image: '/hlp250.webp',
+    image: '/nhlp3-floor-reflection.png',
     imageAlt: 'Microtex MTI-HLP250 hinge-lid cigarette packer',
-    cta: { href: '/machines/packing-machines/hlp-250', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/hlp-250', text: 'View Machine Details' },
     description:
       'A high-output hinge-lid packer for standard, square, octagonal, round-corner, and Nano pack formats.',
     details: [
@@ -37,9 +37,9 @@ const packingMachines: MachineGroup[] = [
   {
     id: 'hlp-2',
     title: 'HINGE LID PACKER MTI-HLP2',
-    image: '/hlp2a.webp',
+    image: '/hlp250.webp',
     imageAlt: 'Microtex MTI-HLP2 hinge-lid cigarette packer',
-    cta: { href: '/machines/packing-machines/hlp-2', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/hlp-2', text: 'View Machine Details' },
     description:
       'A flexible 180-pack-per-minute line built around a double-plunger mechanism for consistent, high-volume packing.',
     details: [
@@ -55,11 +55,30 @@ const packingMachines: MachineGroup[] = [
     ],
   },
   {
+    id: 'sasib-3000-soft-packer',
+    title: 'SASIB 3000 SOFT PACKER',
+    image: '/sasib3000-floor-reflection.png',
+    imageAlt: 'Sasib S-3000 soft cigarette packing machine',
+    cta: { href: '/machines/packing-machines/sasib-3000-soft-packer', text: 'View Machine Details' },
+    description:
+      'A fully automatic soft packer for 84 mm and 100 mm cigarette packs, with roller-fed wrapping and sealing.',
+    details: [
+      'Handles Alufoil and label wrapping at 150 packets per minute.',
+      'Control system supports quick adjustments and straightforward maintenance.',
+    ],
+    compactFeatures: true,
+    features: [
+      { title: 'PRODUCTIVITY', text: '150 packets per minute', icons: ['/icons/industry/output-speed.webp'] },
+      { title: 'PACK SIZES', text: '84 mm and 100 mm', icons: ['/icons/industry/format-gauge.webp'] },
+      { title: 'POWER', text: '6 kW', icons: ['/icons/industry/power-gauge.webp'] },
+    ],
+  },
+  {
     id: 'packet-wrapper',
     title: 'PACKET WRAPPER',
     image: '/packeta.webp',
     imageAlt: 'Microtex packet wrapping machine',
-    cta: { href: '/machines/packing-machines/packet-wrapper', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/packet-wrapper', text: 'View Machine Details' },
     description:
       'A turret-style wrapper for finished cigarette packs, with adjustable handling for different product and film formats.',
     details: [
@@ -82,7 +101,7 @@ const packingMachines: MachineGroup[] = [
     image: '/mti-ow25-1-over-wrapper-reflection.png',
     imageAlt: 'Microtex MTI-OW25-1 cigarette overwrapper',
     imageZoom: 1.24,
-    cta: { href: '/machines/packing-machines/over-wrapper-mti-ow25-1', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/over-wrapper-mti-ow25-1', text: 'View Machine Details' },
     description:
       'An easy-to-operate outer wrapper with consistent film handling, straightforward maintenance, and quick size changeover.',
     details: [
@@ -101,9 +120,9 @@ const packingMachines: MachineGroup[] = [
   {
     id: 'high-speed-boxer',
     title: 'HIGH-SPEED BOXER MACHINE',
-    image: '/boxer machine.webp',
+    image: '/nboxer-floor-reflection.webp',
     imageAlt: 'Microtex high-speed cigarette boxer machine',
-    cta: { href: '/machines/packing-machines/high-speed-boxer', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/high-speed-boxer', text: 'View Machine Details' },
     description:
       'An end-of-line boxer that groups cigarette packs into cartons with cold-glue sealing and controlled pack handling.',
     details: [
@@ -123,7 +142,7 @@ const packingMachines: MachineGroup[] = [
     title: 'STAMPER MACHINE',
     image: '/stamper.webp',
     imageAlt: 'Cigarette packet tax-stamping machine',
-    cta: { href: '/machines/packing-machines/stamping-machine', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/stamping-machine', text: 'View Machine Details' },
     description:
       'Applies tax stamps to finished packets and automatically rejects packs that pass through without a stamp.',
     details: [
@@ -144,7 +163,7 @@ const packingMachines: MachineGroup[] = [
     title: 'CASE PACKER MACHINE',
     image: '/mti-cp06-1-case-packer-cutout.webp',
     imageAlt: 'Microtex MTI-CP06-1 cigarette case packer',
-    cta: { href: '/machines/packing-machines/case-packer', text: 'LEARN MORE' },
+    cta: { href: '/machines/packing-machines/case-packer', text: 'View Machine Details' },
     description:
       'A horizontal case packer that automates feeding, stacking, and loading products into cases for end-of-line packing.',
     details: [
@@ -166,7 +185,7 @@ export default function PackingMachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="PACKING MACHINES" imageSrc="/packers.webp" imageAlt="Cigarette packing machinery" subtitle="" />
+        <Hero title="PACKING MACHINES" imageSrc="/packingmachinesherofinal.png" imageAlt="Cigarette packing machinery" subtitle="" />
         <MachineStack groups={packingMachines} />
         <CTA />
       </main>

@@ -1,0 +1,1474 @@
+{
+ "url": "http://127.0.0.1:3000/about-us",
+ "at": "2026-11-02T13:50:07.310Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.05,
+    0.66,
+    0.67,
+    0.69,
+    0.79
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3852,
+     "screens": 4.3,
+     "words": 343,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fhero3.webp&w=1920&q=75",
+      "image?url=%2Fabouthero.webp&w=1920&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "ABOUT US",
+     "words": 2,
+     "chars": 8,
+     "lines": 1,
+     "size": 48,
+     "vw": 3.3,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.017,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.91,
+     "top": 127,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ABOUT US",
+     "words": 2,
+     "lines": 1,
+     "size": 48,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "ABOUT US",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.017,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 127,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A PARTNER FOR MAKING AND PACKAGING MACHINERY",
+      "words": 7,
+      "chars": 44,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.022,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 878,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ONE PARTNER COMPLETE SOLUTION, SEAMLESS CIGARETTE MANUFACTURING & PACKING",
+      "words": 9,
+      "chars": 73,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.022,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.62,
+      "top": 1953,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "FROM DESIGN THROUGH DELIVERY",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.022,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 2462,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 2726,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.18,
+      "top": 2726,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "03",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 2726,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "04",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 2.1,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.18,
+      "top": 2726,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "READY TO UPGRADE YOUR LINE?",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 3068,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 9,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 1,
+     "medianWords": 4,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.77,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.23,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      30,
+      36,
+      48
+     ],
+     "sizeCount": 8,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 18,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": -0.044,
+      "contrast": 14.7
+     },
+     "measureChars": 73,
+     "max": {
+      "size": 48,
+      "vw": 3.3,
+      "font": "Space Grotesk",
+      "text": "ABOUT US"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.17,
+     "centerShare": 0.07,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 30,
+      "top": 2726
+     },
+     {
+      "text": "02",
+      "size": 30,
+      "top": 2726
+     },
+     {
+      "text": "03",
+      "size": 30,
+      "top": 2726
+     },
+     {
+      "text": "04",
+      "size": 30,
+      "top": 2726
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 814,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f9fafb",
+       "top": 1889,
+       "hsl": {
+        "h": 210,
+        "s": 0.2,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 3495,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1e2939",
+       "share": 0.56
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.35
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      },
+      {
+       "color": "#000000",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#c10007",
+      "hsl": {
+       "h": 358,
+       "s": 1,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 1,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "CONTACT US"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 1248px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2161
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2588
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.83
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 66,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3852,
+    "margins": {
+     "left": 64,
+     "right": 96
+    },
+    "sections": [
+     {
+      "sel": "div.relative.w-full",
+      "tag": "div",
+      "top": 66,
+      "height": 748,
+      "words": 4,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "ABOUT US",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 64,
+      "right": 1148,
+      "textLeft": 64,
+      "textRight": 1148,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 814,
+      "height": 1075,
+      "words": 88,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A partner for making and packaging machinery",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-gray-50.px-6",
+      "tag": "section",
+      "top": 1889,
+      "height": 509,
+      "words": 89,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "ONE PARTNER COMPLETE SOLUTION, SEAMLESS CIGARETTE ",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 124,
+      "right": 142,
+      "textLeft": 124,
+      "textRight": 142,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 2398,
+      "height": 478,
+      "words": 73,
+      "media": 0,
+      "middle": 5,
+      "heading": {
+       "text": "From design through delivery",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 104,
+      "textLeft": 96,
+      "textRight": 104,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-8",
+      "tag": "div",
+      "top": 2876,
+      "height": 620,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 96,
+      "right": 96,
+      "textLeft": 272,
+      "textRight": 519,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 3495,
+      "height": 357,
+      "words": 86,
+      "media": 0,
+      "middle": 131,
+      "heading": null,
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "ABOUT US",
+      "size": 48,
+      "top": 127,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 120,
+      "n": 4
+     },
+     {
+      "x": 684,
+      "n": 3
+     },
+     {
+      "x": 96,
+      "n": 2
+     },
+     {
+      "x": 272,
+      "n": 2
+     },
+     {
+      "x": 435,
+      "n": 2
+     },
+     {
+      "x": 545,
+      "n": 2
+     },
+     {
+      "x": 750,
+      "n": 2
+     },
+     {
+      "x": 967,
+      "n": 2
+     },
+     {
+      "x": 1065,
+      "n": 2
+     },
+     {
+      "x": 64,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.01,
+    "voidBox": {
+     "x": 1320,
+     "y": 840,
+     "w": 120,
+     "h": 60
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.41,
+    0.68,
+    0.66,
+    0.79,
+    0.92,
+    1
+   ],
+   "motion": {
+    "elements": 1,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 1,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4709,
+     "screens": 5.6,
+     "words": 327,
+     "img": 4,
+     "video": 0,
+     "canvas": 0,
+     "svg": 5,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 3,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "image?url=%2Fhero3.webp&w=640&q=75",
+      "image?url=%2Fabouthero.webp&w=640&q=75"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "A PARTNER FOR MAKING AND PACKAGING MACHINERY",
+     "words": 7,
+     "chars": 44,
+     "lines": 2,
+     "size": 24,
+     "vw": 6.2,
+     "font": "Space Grotesk",
+     "weight": 600,
+     "tracking": -0.033,
+     "leading": 1.25,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 322,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "ABOUT US",
+     "words": 2,
+     "lines": 1,
+     "size": 24,
+     "font": "Space Grotesk"
+    },
+    "headings": [
+     {
+      "text": "ABOUT US",
+      "words": 2,
+      "chars": 8,
+      "lines": 1,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.033,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 106,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "A PARTNER FOR MAKING AND PACKAGING MACHINERY",
+      "words": 7,
+      "chars": 44,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.033,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 322,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "FROM DESIGN THROUGH DELIVERY",
+      "words": 4,
+      "chars": 28,
+      "lines": 2,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.033,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1923,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "01",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2263,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "02",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2499,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "03",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2735,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "04",
+      "words": 1,
+      "chars": 2,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.027,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 2971,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "READY TO UPGRADE YOUR LINE?",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "weight": 600,
+      "tracking": -0.05,
+      "leading": 1.25,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 3181,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 0,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "DM Sans",
+       "share": 0.79,
+       "mono": false
+      },
+      {
+       "family": "Space Grotesk",
+       "share": 0.21,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      14,
+      16,
+      18,
+      20,
+      24,
+      30
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "DM Sans",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": -0.05,
+      "contrast": 14.7
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Space Grotesk",
+      "text": "01"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.15,
+     "centerShare": 0.08,
+     "smallText": 3
+    },
+    "eyebrows": [],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 30,
+      "top": 2263
+     },
+     {
+      "text": "02",
+      "size": 30,
+      "top": 2499
+     },
+     {
+      "text": "03",
+      "size": 30,
+      "top": 2735
+     },
+     {
+      "text": "04",
+      "size": 30,
+      "top": 2971
+     }
+    ],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ffffff",
+       "top": 274,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#f9fafb",
+       "top": 1048,
+       "hsl": {
+        "h": 210,
+        "s": 0.2,
+        "l": 0.98
+       }
+      },
+      {
+       "color": "#f3f4f6",
+       "top": 3550,
+       "hsl": {
+        "h": 220,
+        "s": 0.14,
+        "l": 0.96
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1e2939",
+       "share": 0.57
+      },
+      {
+       "color": "#4a5565",
+       "share": 0.34
+      },
+      {
+       "color": "#d1d5dc",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.03
+      },
+      {
+       "color": "#000000",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#c10007",
+      "hsl": {
+       "h": 358,
+       "s": 1,
+       "l": 0.38
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 1,
+     "radius": 4,
+     "height": 31,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "EXPLORE OUR SERVICES"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 1,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "div.border-t.border-gray-300 342px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 3,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 1301
+      },
+      {
+       "count": 4,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 2121
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.24
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "dm sans",
+     "dm sans fallback",
+     "space grotesk",
+     "space grotesk fallback"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4709,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "div.relative.w-full",
+      "tag": "div",
+      "top": 72,
+      "height": 202,
+      "words": 4,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "ABOUT US",
+       "size": 24,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 220,
+      "textLeft": 16,
+      "textRight": 220,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 274,
+      "height": 774,
+      "words": 88,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "A partner for making and packaging machinery",
+       "size": 24,
+       "tag": "h2"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-gray-50.px-6",
+      "tag": "section",
+      "top": 1048,
+      "height": 827,
+      "words": 89,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "ONE PARTNER COMPLETE SOLUTION, SEAMLESS CIGARETTE ",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.bg-white.px-6",
+      "tag": "section",
+      "top": 1875,
+      "height": 1226,
+      "words": 73,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "01",
+       "size": 30,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 47,
+      "textLeft": 24,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.px-4.py-8",
+      "tag": "div",
+      "top": 3101,
+      "height": 450,
+      "words": 28,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "READY TO UPGRADE YOUR LINE?",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 40,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.bg-gray-100.px-6",
+      "tag": "footer",
+      "top": 3550,
+      "height": 1159,
+      "words": 86,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 78,
+      "textLeft": 24,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "ABOUT US",
+      "size": 24,
+      "top": 106,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 16
+     },
+     {
+      "x": 16,
+      "n": 6
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\", \"04\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): div.border-t.border-gray-300 1248px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "card-rows",
+   "width": 1440,
+   "message": "2 rows of identical boxed cards.",
+   "fix": "Vary the composition; not every section is a card grid.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 3 picture(s) on the page (3 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "small-text",
+   "width": 1440,
+   "message": "3 text block(s) under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The margins differ: 64px on the left, 96px on the right, at 1440px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page."
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"ABOUT US\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 10 different lines (120px, 684px, 96px, 272px, 435px, 545px, 750px); the three most used hold only 41% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 1 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 390,
+   "message": "The h1 is 24px (\"ABOUT US\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-heading-final/desktop-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-heading-final/desktop-page-01.jpg",
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-heading-final/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-heading-final/mobile-fold.jpg",
+   "pages": [
+    "/Users/h/Downloads/coding-projects/mctintl/.taste-skill/about-heading-final/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

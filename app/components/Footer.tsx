@@ -14,8 +14,7 @@ const machinesLinks = [
   { label: 'Making Machines', href: '/machines/making-machines' },
   { label: 'Packing Machines', href: '/machines/packing-machines' },
   { label: 'Filter Machines', href: '/machines/filter-machines' },
-  { label: 'Rebuilt Machines', href: '/machines#making' },
-  { label: 'Other Products', href: '/machines' },
+  { label: 'Utilities/Accessories', href: '/machines/utilities-accessories' },
 ]
 
 const servicesLinks = [

@@ -14,7 +14,7 @@ export default function ContactPage() {
     <>
       <Header />
       <main>
-        <Hero title="CONTACT US" imageAlt="Microtex International cigarette machinery" />
+        <Hero title="CONTACT US" imageSrc="/abouthero.webp" imageAlt="Microtex International building exterior" darkOverlay />
 
         <div className="grid grid-cols-1 gap-10 bg-white px-4 pb-12 pt-8 font-stylish tracking-tighter sm:px-8 sm:pb-16 lg:grid-cols-2 lg:gap-20 lg:px-24 lg:pb-20">
           <section aria-labelledby="contact-details-title">
