@@ -11,7 +11,7 @@ const Services = () => {
             >
             <h5 className="mt-2 text-xl font-semibold tracking-tighter text-gray-600 md:mt-8 sm:text-2xl">MACHINES</h5>
             <div className="flex h-40 w-full items-center justify-center overflow-hidden bg-white sm:h-48">
-              <img src="/mk8d.webp" alt="Machines" className="h-full w-auto object-contain mx-auto" />
+              <img src="/mk8da.webp" alt="Machines" className="h-full w-auto object-contain mx-auto" />
             </div>
             
             <ul className="list-disc pl-5 text-base leading-tight tracking-tighter text-gray-800 sm:text-lg">
