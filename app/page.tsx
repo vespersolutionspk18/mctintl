@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
     <Header />
-    <Hero title={<>CIGARETTE MAKEPACK MACHINERY & <br />SPARE PARTS</>} imageSrc="/herofinalfinal.png" />
+    <Hero title={<>CIGARETTE MAKEPACK MACHINERY & <br />SPARE PARTS</>} imageSrc="/herofinalfinal.webp" />
     <About />
     <Services />
     <News />

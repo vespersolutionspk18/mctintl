@@ -15,7 +15,7 @@ const filterMachines: MachineGroup[] = [
   {
     id: 'kdf2-filter-maker',
     title: 'KDF2 FILTER ROD MAKER',
-    image: '/kdf2-filter-maker-cutout.png',
+    image: '/kdf2-filter-maker-cutout.webp',
     imageAlt: 'Refurbished Hauni KDF2 filter rod making machine',
     description:
       'A refurbished high-speed filter rod making line with upgraded motors and electronics, Siemens S7-300 control, and five servo motors for synchronized production.',
@@ -53,7 +53,7 @@ export default function FilterMachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="FILTER MACHINES" imageSrc="/filtermachinesherofinal.png" imageAlt="Cigarette filter rod making machinery" />
+        <Hero title="FILTER MACHINES" imageSrc="/filtermachinesherofinal.webp" imageAlt="Cigarette filter rod making machinery" />
         <MachineStack groups={filterMachines} />
         <CTA compact />
       </main>

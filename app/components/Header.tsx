@@ -67,7 +67,7 @@ const machineCategories: MachineCategory[] = [
     cards: [
       {
         title: 'HINGE LID PACKER MTI-HLP250',
-        image: '/nhlp3-floor-reflection.png',
+        image: '/nhlp3-floor-reflection.webp',
         imageAlt: 'Microtex MTI-HLP250 hinge-lid packer',
         href: '/machines/packing-machines/hlp-250',
       },
@@ -79,7 +79,7 @@ const machineCategories: MachineCategory[] = [
       },
       {
         title: 'SASIB 3000 SOFT PACKER',
-        image: '/sasib3000-floor-reflection.png',
+        image: '/sasib3000-floor-reflection.webp',
         imageAlt: 'Sasib S-3000 soft cigarette packing machine',
         href: '/machines/packing-machines/sasib-3000-soft-packer',
       },
@@ -91,7 +91,7 @@ const machineCategories: MachineCategory[] = [
       },
       {
         title: 'OVERWRAPPER MACHINE',
-        image: '/mti-ow25-1-over-wrapper-reflection.png',
+        image: '/mti-ow25-1-over-wrapper-reflection.webp',
         imageAlt: 'Microtex MTI-OW25-1 overwrapping machine',
         href: '/machines/packing-machines/over-wrapper-mti-ow25-1',
       },
@@ -122,7 +122,7 @@ const machineCategories: MachineCategory[] = [
     cards: [
       {
         title: 'KDF2 FILTER ROD MAKER',
-        image: '/kdf2-filter-maker-cutout.png',
+        image: '/kdf2-filter-maker-cutout.webp',
         imageAlt: 'Refurbished Hauni KDF2 filter rod making machine',
         href: '/machines/filter-machines/kdf2-filter-maker',
       },
@@ -136,49 +136,49 @@ const machineCategories: MachineCategory[] = [
     cards: [
       {
         title: 'MOLINS TOBACCO CUTTER MRTC MK1',
-        image: '/molinscutter-refurbished-reflection.png',
+        image: '/molinscutter-refurbished-reflection.webp',
         imageAlt: 'Molins industrial tobacco rotary cutter',
         href: '/machines/utilities-accessories/molins-tobacco-cutter-mrtc-mk1',
       },
       {
         title: 'TOBACCO RECLAIMER',
-        image: '/reclaimer2-floor-reflection.png',
+        image: '/reclaimer2-floor-reflection.webp',
         imageAlt: 'Industrial tobacco reclaimer',
         href: '/machines/utilities-accessories/tobacco-reclaimer',
       },
       {
         title: 'AUTOMATIC TOBACCO FEEDER',
-        image: '/autotobaccofeeder-floor-reflection.png',
+        image: '/autotobaccofeeder-floor-reflection.webp',
         imageAlt: 'Automatic tobacco feeder',
         href: '/machines/utilities-accessories/automatic-tobacco-feeder',
       },
       {
         title: 'TOBACCO DUST COLLECTOR',
-        image: '/dustcollector1-floor-reflection.png',
+        image: '/dustcollector1-floor-reflection.webp',
         imageAlt: 'Industrial tobacco dust collector',
         href: '/machines/utilities-accessories/tobacco-dust-collector',
       },
       {
         title: 'VACUUM PUMPS',
-        image: '/vacuumpump2-floor-reflection.png',
+        image: '/vacuumpump2-floor-reflection.webp',
         imageAlt: 'Industrial dry claw vacuum pump',
         href: '/machines/utilities-accessories/vacuum-pumps',
       },
       {
         title: 'AIR COMPRESSORS WITH DRYER PACKAGE',
-        image: '/aircompressor-floor-reflection.png',
+        image: '/aircompressor-floor-reflection.webp',
         imageAlt: 'Industrial air compressor with dryer package',
         href: '/machines/utilities-accessories/air-compressors-with-dryer-package',
       },
       {
         title: 'CIGARETTE & FILTER TRAYS AND TROLLEYS',
-        image: '/trolley1-floor-reflection.png',
+        image: '/trolley1-floor-reflection.webp',
         imageAlt: 'Mobile trolley for cigarette and filter trays',
         href: '/machines/utilities-accessories/cigarette-filter-trays-and-trolleys',
       },
       {
         title: 'SHRINK HEAT TUNNEL',
-        image: '/shrinkheattunnel-floor-reflection.png',
+        image: '/shrinkheattunnel-floor-reflection.webp',
         imageAlt: 'Industrial shrink heat tunnel',
         href: '/machines/utilities-accessories/shrink-heat-tunnel',
       },

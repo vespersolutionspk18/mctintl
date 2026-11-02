@@ -15,7 +15,7 @@ const packingMachines: MachineGroup[] = [
   {
     id: 'hlp-250',
     title: 'HINGE LID PACKER MTI-HLP250',
-    image: '/nhlp3-floor-reflection.png',
+    image: '/nhlp3-floor-reflection.webp',
     imageAlt: 'Microtex MTI-HLP250 hinge-lid cigarette packer',
     cta: { href: '/machines/packing-machines/hlp-250', text: 'View Machine Details' },
     description:
@@ -57,7 +57,7 @@ const packingMachines: MachineGroup[] = [
   {
     id: 'sasib-3000-soft-packer',
     title: 'SASIB 3000 SOFT PACKER',
-    image: '/sasib3000-floor-reflection.png',
+    image: '/sasib3000-floor-reflection.webp',
     imageAlt: 'Sasib S-3000 soft cigarette packing machine',
     cta: { href: '/machines/packing-machines/sasib-3000-soft-packer', text: 'View Machine Details' },
     description:
@@ -98,7 +98,7 @@ const packingMachines: MachineGroup[] = [
   {
     id: 'overwrapper',
     title: 'OVERWRAPPER MACHINE',
-    image: '/mti-ow25-1-over-wrapper-reflection.png',
+    image: '/mti-ow25-1-over-wrapper-reflection.webp',
     imageAlt: 'Microtex MTI-OW25-1 cigarette overwrapper',
     imageZoom: 1.24,
     cta: { href: '/machines/packing-machines/over-wrapper-mti-ow25-1', text: 'View Machine Details' },
@@ -185,7 +185,7 @@ export default function PackingMachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="PACKING MACHINES" imageSrc="/packingmachinesherofinal.png" imageAlt="Cigarette packing machinery" subtitle="" />
+        <Hero title="PACKING MACHINES" imageSrc="/packingmachinesherofinal.webp" imageAlt="Cigarette packing machinery" subtitle="" />
         <MachineStack groups={packingMachines} />
         <CTA />
       </main>

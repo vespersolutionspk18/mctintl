@@ -52,7 +52,7 @@ const machineGroups: MachineGroup[] = [
   {
     id: 'packing',
     title: 'PACKING MACHINES',
-    image: '/nhlp3-floor-reflection.png',
+    image: '/nhlp3-floor-reflection.webp',
     imageAlt: 'Microtex MTI-HLP250 hinge-lid packer',
     description:
       'From primary wrapping and overwrapping to end-of-line case packing, explore equipment for the different stages of your cigarette packaging line.',
@@ -75,7 +75,7 @@ const machineGroups: MachineGroup[] = [
   {
     id: 'filter',
     title: 'FILTER MACHINES',
-    image: '/kdf2-filter-maker-cutout.png',
+    image: '/kdf2-filter-maker-cutout.webp',
     imageAlt: 'Refurbished Hauni KDF2 filter rod making machine',
     description:
       'The KDF2 is a high-speed filter rod maker producing up to 400 meters per minute, with an optional 500 meters per minute configuration. Five servo motors and a Siemens S7-300 PLC support synchronized production.',
@@ -106,7 +106,7 @@ const machineGroups: MachineGroup[] = [
   {
     id: 'utilities-accessories',
     title: 'UTILITIES & ACCESSORIES',
-    image: '/reclaimer2-floor-reflection.png',
+    image: '/reclaimer2-floor-reflection.webp',
     imageAlt: 'Industrial tobacco reclaimer with an infeed hopper and takeaway conveyor',
     description:
       'Equipment for tobacco cutting, recovery and feeding, plus dust extraction, compressed air, vacuum, shrink wrapping and tray handling.',

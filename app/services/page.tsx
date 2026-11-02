@@ -18,7 +18,7 @@ export default function ServicesPage() {
       <main>
         <Hero
           title="SERVICES"
-          imageSrc="/servicesherofinalblue.png"
+          imageSrc="/servicesherofinalblue.webp"
           imageAlt="Cigarette production machinery"
           textColor="white"
           darkOverlay

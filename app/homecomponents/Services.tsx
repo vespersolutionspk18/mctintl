@@ -45,7 +45,7 @@ const Services = () => {
             >
             <h5 className="mt-2 text-xl font-semibold tracking-tighter text-gray-600 md:mt-8 sm:text-2xl">SPARE PARTS</h5>
             <div className="flex h-40 w-full items-center justify-center overflow-hidden bg-white sm:h-48">
-              <img src="/sparepartshero.png" alt="Spare Parts" className="h-full w-auto object-contain mx-auto" />
+              <img src="/sparepartshero.webp" alt="Spare Parts" className="h-full w-auto object-contain mx-auto" />
             </div>
             
             <ul className="list-disc pl-5 text-base leading-tight tracking-tighter text-gray-800 sm:text-lg">
@@ -59,7 +59,7 @@ const Services = () => {
             
         </div>
 
-        <img src="/3DPACKETSFINAL.png" alt="Cigarette pack size and packet variations" className="mt-10 w-full sm:mt-12 lg:mt-16" />
+        <img src="/3DPACKETSFINAL.webp" alt="Cigarette pack size and packet variations" className="mt-10 w-full sm:mt-12 lg:mt-16" />
     </div>
   )
 }

@@ -12,7 +12,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Molins Tobacco Cutter MRTC Mk1',
     metaDescription:
       'Molins MRTC Mk1 industrial rotary tobacco cutter for lamina and expanded stem, with five- or eight-knife options and optional PLC upgrade.',
-    heroImage: '/molinscutter-refurbished-reflection.png',
+    heroImage: '/molinscutter-refurbished-reflection.webp',
     heroImageAlt: 'Molins MRTC Mk1 industrial rotary tobacco cutter',
     capabilities: [
       { image: '/icons/industry/cutter-blade.webp', text: 'Five- or eight-knife setup' },
@@ -54,7 +54,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Tobacco Reclaimer',
     metaDescription:
       'Recover reusable tobacco from rejected cigarettes with a compact reclaimer designed for continuous production-floor use.',
-    heroImage: '/reclaimer2-floor-reflection.png',
+    heroImage: '/reclaimer2-floor-reflection.webp',
     heroImageAlt: 'Industrial tobacco reclaimer with an infeed hopper and takeaway conveyor',
     capabilities: [
       { image: '/icons/industry/output-speed.webp', text: '100 kg/hour processing capacity' },
@@ -87,7 +87,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
       'An enclosed, low-vibration footprint is suited to production-floor installation.',
       'Safety interlocks and emergency stops support controlled operation.',
     ],
-    gallery: [{ src: '/reclaimer1-floor-reflection.png', alt: 'Front view of the tobacco reclaimer and feed conveyor' }],
+    gallery: [{ src: '/reclaimer1-floor-reflection.webp', alt: 'Front view of the tobacco reclaimer and feed conveyor' }],
     relatedMachines: [],
   },
   {
@@ -95,7 +95,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Automatic Tobacco Feeder',
     metaDescription:
       'Pneumatic tobacco transfer and adjustable feeding for Molins Mark 8 and Mark 9 cigarette-making lines.',
-    heroImage: '/autotobaccofeeder-floor-reflection.png',
+    heroImage: '/autotobaccofeeder-floor-reflection.webp',
     heroImageAlt: 'Automatic tobacco feeder with an enclosed hopper and feed section',
     capabilities: [
       { image: '/icons/industry/gears.webp', text: 'Pneumatic suction transfer' },
@@ -136,7 +136,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Tobacco Dust Collector',
     metaDescription:
       'Standalone extraction and filtration for airborne tobacco dust and fibres around cigarette production equipment.',
-    heroImage: '/dustcollector1-floor-reflection.png',
+    heroImage: '/dustcollector1-floor-reflection.webp',
     heroImageAlt: 'Enclosed industrial tobacco dust collector with a side control panel',
     capabilities: [
       { image: '/icons/industry/service-tools.webp', text: 'Standalone extraction and filtration' },
@@ -170,7 +170,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
       'A heavy-duty blower is intended for extended operating shifts.',
       'Quick-access collection bins simplify routine emptying and cleaning.',
     ],
-    gallery: [{ src: '/dustcollector2-upscaled.png', alt: 'Alternate view of the industrial tobacco dust collector' }],
+    gallery: [{ src: '/dustcollector2-upscaled.webp', alt: 'Alternate view of the industrial tobacco dust collector' }],
     relatedMachines: [],
   },
   {
@@ -178,7 +178,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Vacuum Pumps',
     metaDescription:
       'Dry contactless claw vacuum pumps for cigarette-making and packing equipment, with integrated controls and air cooling.',
-    heroImage: '/vacuumpump2-floor-reflection.png',
+    heroImage: '/vacuumpump2-floor-reflection.webp',
     heroImageAlt: 'Industrial dry claw vacuum pump in an acoustic enclosure',
     capabilities: [
       { image: '/icons/industry/gears.webp', text: 'Dry contactless claw technology' },
@@ -211,7 +211,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
       'Integrated air cooling avoids a separate water-cooling circuit.',
       'The enclosed cabinet helps damp operating noise and vibration.',
     ],
-    gallery: [{ src: '/vacuumpump1-floor-reflection.png', alt: 'Alternate industrial vacuum pump configuration' }],
+    gallery: [{ src: '/vacuumpump1-floor-reflection.webp', alt: 'Alternate industrial vacuum pump configuration' }],
     relatedMachines: [],
   },
   {
@@ -219,7 +219,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Air Compressors with Dryer Package',
     metaDescription:
       'Integrated industrial air compressor, dryer and three-stage filtration packages for cigarette manufacturing and packing lines.',
-    heroImage: '/aircompressor-floor-reflection.png',
+    heroImage: '/aircompressor-floor-reflection.webp',
     heroImageAlt: 'Industrial air compressor package with a refrigerated dryer and storage tank',
     capabilities: [
       { image: '/icons/industry/power-gauge.webp', text: 'Compressor, dryer and filters in one package' },
@@ -261,7 +261,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Cigarette & Filter Trays and Trolleys',
     metaDescription:
       'Tray and wheeled-rack options for staging and moving cigarettes or filter rods between production operations.',
-    heroImage: '/trolley1-floor-reflection.png',
+    heroImage: '/trolley1-floor-reflection.webp',
     heroImageAlt: 'Mobile multi-level trolley holding cigarette or filter trays',
     capabilities: [
       { image: '/icons/industry/format-gauge.webp', text: 'For cigarettes or filter rods' },
@@ -294,7 +294,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
       'Tray and rack arrangements should suit the product and the machines they serve.',
       'Confirm the tray standard, dimensions and required load before selecting a trolley.',
     ],
-    gallery: [{ src: '/trolley2-floor-reflection.png', alt: 'Alternate multi-level trolley rack for cigarette or filter trays' }],
+    gallery: [{ src: '/trolley2-floor-reflection.webp', alt: 'Alternate multi-level trolley rack for cigarette or filter trays' }],
     relatedMachines: [],
   },
   {
@@ -302,7 +302,7 @@ export const utilityAccessoryProducts: UtilityAccessoryProduct[] = [
     title: 'Shrink Heat Tunnel',
     metaDescription:
       'Conveyor-fed heat tunnel for applying a close shrink-film wrap to cigarette packs and grouped products.',
-    heroImage: '/shrinkheattunnel-floor-reflection.png',
+    heroImage: '/shrinkheattunnel-floor-reflection.webp',
     heroImageAlt: 'Conveyor-fed industrial shrink heat tunnel',
     capabilities: [
       { image: '/icons/industry/film-roll.webp', text: 'Secondary shrink-film wrapping' },

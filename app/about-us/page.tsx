@@ -55,7 +55,7 @@ export default function AboutUsPage() {
     <>
       <Header />
       <main>
-        <Hero title="ABOUT US" imageSrc="/aboutherofinal.png" imageAlt="Microtex International cigarette machinery" darkOverlay />
+        <Hero title="ABOUT US" imageSrc="/aboutherofinal.webp" imageAlt="Microtex International cigarette machinery" darkOverlay />
 
         <section className="bg-white px-6 py-12 font-stylish tracking-tighter sm:px-10 sm:py-16 lg:px-16 xl:px-24">
           <div className="grid items-start gap-6 lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
@@ -79,7 +79,7 @@ export default function AboutUsPage() {
 
           <div className="relative mt-10 aspect-[16/8] w-full overflow-hidden bg-white sm:mt-12">
             <Image
-              src="/floorblue.png"
+              src="/floorblue.webp"
               alt="Blue-lit factory floor with cigarette machinery"
               fill
               sizes="(max-width: 640px) 100vw, 90vw"

@@ -80,7 +80,7 @@ export default function MakingMachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="MAKING MACHINES" imageSrc="/makingmachinesherofinal.png" imageAlt="Cigarette making machinery" subtitle="" />
+        <Hero title="MAKING MACHINES" imageSrc="/makingmachinesherofinal.webp" imageAlt="Cigarette making machinery" subtitle="" />
         <MachineStack groups={makingMachines} />
         <CTA />
       </main>

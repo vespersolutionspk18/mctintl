@@ -20,7 +20,7 @@ const relatedForMark8: RelatedMachine[] = [
   },
   {
     title: 'HINGE LID PACKER MTI-HLP250',
-    image: '/nhlp3-floor-reflection.png',
+    image: '/nhlp3-floor-reflection.webp',
     imageAlt: 'Microtex MTI-HLP250 hinge-lid cigarette packer',
     href: '/machines/packing-machines/hlp-250',
   },
@@ -36,7 +36,7 @@ const relatedForMark95 = (currentSlug: string): RelatedMachine[] => [
   ...(currentSlug === 'mark-9-5-max-s' ? [relatedForMark8[1]] : [relatedForMark8[0]]),
   {
     title: 'HINGE LID PACKER MTI-HLP250',
-    image: '/nhlp3-floor-reflection.png',
+    image: '/nhlp3-floor-reflection.webp',
     imageAlt: 'Microtex MTI-HLP250 hinge-lid cigarette packer',
     href: '/machines/packing-machines/hlp-250',
   },

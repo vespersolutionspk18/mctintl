@@ -17,7 +17,7 @@ export default function OverWrapperProductPage() {
       <main>
         <MachineProductTemplate
           title="Over Wrapper MTI-OW25-1"
-          heroImage="/mti-ow25-1-over-wrapper-reflection.png"
+          heroImage="/mti-ow25-1-over-wrapper-reflection.webp"
           heroImageAlt="Microtex MTI-OW25-1 automatic over-wrapping machine"
           capabilities={[
             { image: '/machines/product-features/overwrapper-plc-control-photo.webp', text: 'Automatic PLC control' },

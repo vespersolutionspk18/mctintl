@@ -15,7 +15,7 @@ export default function MachinesPage() {
     <>
       <Header />
       <main>
-        <Hero title="TOBACCO MACHINES" imageSrc="/herofinalfinal.png" imageAlt="Cigarette making, filter rod making, and packing machinery" />
+        <Hero title="TOBACCO MACHINES" imageSrc="/herofinalfinal.webp" imageAlt="Cigarette making, filter rod making, and packing machinery" />
         <div className="bg-white px-4 py-8 font-stylish tracking-tighter sm:px-8 sm:py-10 lg:px-24">
           <p className="font-sans text-base leading-relaxed text-gray-800 sm:text-lg">
             Microtex International supplies cigarette making, packing and filter machines, along with the

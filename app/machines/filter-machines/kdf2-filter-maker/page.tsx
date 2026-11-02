@@ -17,7 +17,7 @@ export default function KDF2FilterMakerPage() {
       <main>
         <MachineProductTemplate
           title="KDF2 Filter Rod Making Machine"
-          heroImage="/kdf2-filter-maker-cutout.png"
+          heroImage="/kdf2-filter-maker-cutout.webp"
           heroImageAlt="Refurbished Hauni KDF2 filter rod making machine"
           capabilities={[
             { image: '/icons/industry/output-speed.webp', text: '400 m/min output · 500 m/min optional' },

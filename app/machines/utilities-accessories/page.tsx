@@ -19,7 +19,7 @@ export default function UtilitiesAccessoriesPage() {
       <main>
         <Hero
           title="UTILITIES & ACCESSORIES"
-          imageSrc="/utilitieshero.png"
+          imageSrc="/utilitieshero.webp"
           imageAlt="Tobacco handling, production utilities and cigarette line accessories"
         />
         <div className="bg-white px-4 py-8 font-stylish tracking-tighter sm:px-8 sm:py-10 lg:px-24">

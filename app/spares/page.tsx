@@ -34,7 +34,7 @@ export default function SparePartsPage() {
       <main>
         <Hero
           title="SPARE PARTS"
-          imageSrc="/sparepartshero.png"
+          imageSrc="/sparepartshero.webp"
           imageAlt="Cigarette machinery spare parts"
           imageOnRight
           imageWidth={2058}

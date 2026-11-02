@@ -4,7 +4,7 @@ import Button from '../components/Button'
 const CTA = ({ compact = false }: { compact?: boolean }) => {
   return (
     <div className={compact ? 'px-4 py-6 sm:p-8' : 'px-4 py-8 sm:px-8 sm:py-12 lg:p-24'}>
-      <section className={`relative w-full bg-cover bg-center bg-no-repeat font-stylish text-white ${compact ? 'px-6 py-10 sm:px-16' : 'px-6 py-12 sm:px-16 sm:py-20 lg:py-24'}`} style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/floorblue.png)' }}>
+      <section className={`relative w-full bg-cover bg-center bg-no-repeat font-stylish text-white ${compact ? 'px-6 py-10 sm:px-16' : 'px-6 py-12 sm:px-16 sm:py-20 lg:py-24'}`} style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/floorblue.webp)' }}>
       <div className={`max-w-4xl mx-auto flex flex-col items-start ${compact ? 'gap-4' : 'gap-8'}`}>
         <h2 className={`${compact ? 'text-2xl' : 'text-3xl sm:text-5xl'} font-semibold tracking-tighter leading-tight text-white`}>
           READY TO UPGRADE YOUR LINE?
