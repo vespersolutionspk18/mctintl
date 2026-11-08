@@ -42,6 +42,17 @@ export default function ContactPage() {
                 <a className="mt-3 inline-block font-sans text-base text-gray-800 underline hover:text-red-700 transition-colors" href="https://www.google.com/maps/search/?api=1&query=D2+06+Saif+Zone+Sharjah+United+Arab+Emirates" target="_blank" rel="noreferrer">Get directions</a>
               </div>
             </div>
+
+            <div className="mt-8 w-full sm:mt-10">
+              <iframe
+                className="block h-48 w-full border-0"
+                src="https://www.google.com/maps?q=Microtex+International%2C+D2+06%2C+Saif+Zone%2C+Sharjah%2C+United+Arab+Emirates&output=embed"
+                title="Map showing Microtex International in Saif Zone, Sharjah"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
           </section>
 
           <section aria-labelledby="inquiry-title" className="min-w-0">
